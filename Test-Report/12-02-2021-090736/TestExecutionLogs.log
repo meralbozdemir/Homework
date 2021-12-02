@@ -1,0 +1,12 @@
+2021-12-02 09:07:37,297 +0300 [main] INFO  (TestBase.java:80) - ################# Starting testCheckout #################
+2021-12-02 09:09:37,402 +0300 [main] INFO  (TestBase.java:154) - ################# Ending testCheckout #################
+2021-12-02 09:09:43,559 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-02 09:09:43,561 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-02 09:09:43,563 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-02 09:09:43,572 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-02 09:09:43,573 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-02 09:09:43,944 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-02 09:09:43,944 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-02 09:09:43,945 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-02 09:09:43,946 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-02 09:09:43,946 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
