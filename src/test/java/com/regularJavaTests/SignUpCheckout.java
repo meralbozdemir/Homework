@@ -100,6 +100,7 @@ public class SignUpCheckout {
 		Thread.sleep(5000);
 		
 		driver.findElement(By.xpath("//*[@id=\"cart_navigation\"]/button")).click();
+		js.executeScript("window.scrollBy(0,300)");
 		Thread.sleep(7000);
 		
 		String pageText = js.executeScript("return document.documentElement.innerText;").toString();

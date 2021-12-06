@@ -1,0 +1,516 @@
+2021-12-04 14:24:29,250 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testCheckout #################
+2021-12-04 14:24:30,439 +0300 [main] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: standard
+2021-12-04 14:24:30,450 +0300 [main] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2021-12-04 14:24:30,452 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:255) - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2021-12-04 14:24:30,478 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:288) - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-04 14:24:30,481 +0300 [main] DEBUG (MainClientExec.java:235) - Opening connection {s}->https://raw.githubusercontent.com:443
+2021-12-04 14:24:30,516 +0300 [main] DEBUG (DefaultHttpClientConnectionOperator.java:139) - Connecting to raw.githubusercontent.com/185.199.111.133:443
+2021-12-04 14:24:30,517 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:337) - Connecting socket to raw.githubusercontent.com/185.199.111.133:443 with timeout 0
+2021-12-04 14:24:30,736 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2021-12-04 14:24:30,736 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2021-12-04 14:24:30,738 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:395) - Starting handshake
+2021-12-04 14:24:31,113 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:425) - Secure session established
+2021-12-04 14:24:31,114 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2021-12-04 14:24:31,115 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2021-12-04 14:24:31,116 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:435) -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2021-12-04 14:24:31,117 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:444) -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2021-12-04 14:24:31,121 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2021-12-04 14:24:31,123 +0300 [main] DEBUG (DefaultHttpClientConnectionOperator.java:146) - Connection established 192.168.1.118:55447<->185.199.111.133:443
+2021-12-04 14:24:31,124 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:88) - http-outgoing-0: set socket timeout to 30000
+2021-12-04 14:24:31,125 +0300 [main] DEBUG (MainClientExec.java:256) - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-04 14:24:31,125 +0300 [main] DEBUG (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2021-12-04 14:24:31,128 +0300 [main] DEBUG (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2021-12-04 14:24:31,131 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:133) - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-04 14:24:31,132 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2021-12-04 14:24:31,132 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Connection: keep-alive
+2021-12-04 14:24:31,133 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Host: raw.githubusercontent.com
+2021-12-04 14:24:31,133 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-12-04 14:24:31,134 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2021-12-04 14:24:31,135 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2021-12-04 14:24:31,135 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2021-12-04 14:24:31,135 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2021-12-04 14:24:31,136 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-04 14:24:31,136 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "[\r][\n]"
+2021-12-04 14:24:31,211 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-04 14:24:31,211 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2021-12-04 14:24:31,212 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Length: 1144[\r][\n]"
+2021-12-04 14:24:31,212 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2021-12-04 14:24:31,213 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2021-12-04 14:24:31,213 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2021-12-04 14:24:31,214 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"[\r][\n]"
+2021-12-04 14:24:31,214 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2021-12-04 14:24:31,215 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-04 14:24:31,215 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2021-12-04 14:24:31,215 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-04 14:24:31,216 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-GitHub-Request-Id: AC0A:C83A:199D2A3:1AB7D39:61A9E818[\r][\n]"
+2021-12-04 14:24:31,216 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2021-12-04 14:24:31,216 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2021-12-04 14:24:31,217 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Date: Sat, 04 Dec 2021 11:24:31 GMT[\r][\n]"
+2021-12-04 14:24:31,217 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2021-12-04 14:24:31,218 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Served-By: cache-hhn4028-HHN[\r][\n]"
+2021-12-04 14:24:31,218 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+2021-12-04 14:24:31,218 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+2021-12-04 14:24:31,218 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Timer: S1638617072.787373,VS0,VE1[\r][\n]"
+2021-12-04 14:24:31,219 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+2021-12-04 14:24:31,219 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-12-04 14:24:31,219 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Fastly-Request-ID: 0630a5c52d2fe54ff2df8cbbbaafd88f06769261[\r][\n]"
+2021-12-04 14:24:31,219 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Expires: Sat, 04 Dec 2021 11:29:31 GMT[\r][\n]"
+2021-12-04 14:24:31,220 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Source-Age: 178[\r][\n]"
+2021-12-04 14:24:31,220 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2021-12-04 14:24:31,226 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:122) - http-outgoing-0 << HTTP/1.1 200 OK
+2021-12-04 14:24:31,227 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Connection: keep-alive
+2021-12-04 14:24:31,227 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Length: 1144
+2021-12-04 14:24:31,227 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Cache-Control: max-age=300
+2021-12-04 14:24:31,228 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2021-12-04 14:24:31,228 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2021-12-04 14:24:31,228 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"
+2021-12-04 14:24:31,228 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2021-12-04 14:24:31,229 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Content-Type-Options: nosniff
+2021-12-04 14:24:31,229 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Frame-Options: deny
+2021-12-04 14:24:31,229 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2021-12-04 14:24:31,229 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-GitHub-Request-Id: AC0A:C83A:199D2A3:1AB7D39:61A9E818
+2021-12-04 14:24:31,230 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Encoding: gzip
+2021-12-04 14:24:31,230 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Accept-Ranges: bytes
+2021-12-04 14:24:31,230 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Date: Sat, 04 Dec 2021 11:24:31 GMT
+2021-12-04 14:24:31,231 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Via: 1.1 varnish
+2021-12-04 14:24:31,231 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Served-By: cache-hhn4028-HHN
+2021-12-04 14:24:31,231 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Cache: HIT
+2021-12-04 14:24:31,231 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Cache-Hits: 1
+2021-12-04 14:24:31,231 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Timer: S1638617072.787373,VS0,VE1
+2021-12-04 14:24:31,232 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+2021-12-04 14:24:31,232 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Access-Control-Allow-Origin: *
+2021-12-04 14:24:31,232 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Fastly-Request-ID: 0630a5c52d2fe54ff2df8cbbbaafd88f06769261
+2021-12-04 14:24:31,232 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Expires: Sat, 04 Dec 2021 11:29:31 GMT
+2021-12-04 14:24:31,233 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Source-Age: 178
+2021-12-04 14:24:31,241 +0300 [main] DEBUG (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2021-12-04 14:24:31,255 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x97][0xcb]n[0xeb]8[0xc][0x86][0xf7]y[\n]"
+2021-12-04 14:24:31,256 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0x3]g]EWJ*[0xa0][0xcd]\W[0x83]Y[0xcc][0xbc]@[0x9a][0xa8][0xa9]q[0x92][0xb8][0xb0][0x93][0x93][0x83]y[0xfa][0xa1].t[0x14][0xe1][0xc]0[0x8b][0xa2][0xe5]g[0x89]"e[0xd2]?[0xfb]e[0xf8][0xfb]c\[0x86][0xf7][0xf1][0x14][0x87][0xfd]t[0xb9][0xee][0xc6][0xcb]2\?[0xe2][0xf0][0xf5]2[0xdd]/[0xc3]a[0x1e][0xbf][0xc5]y[0xc0][0x9f]e[0x9c][0xf0][0xc9]~:[0xee][0xae][0xe3][0x1b][0xae][0xbe][0x8f][0xd7][0x8f][0xbc]r?[0xcd]s\>[0xa7][0xcb]a[0xbc][0x1c][0x87][0xb7]y[0xba]/[0x8f]-[0x9b][0xcd][0x97][0xe1][0xa7][0x82]^[0x87][0xdf][0xa7][0xe9][0x88];[0xfe][0x98][0xa7]s[0x1c]v[0x97]C[0xf9]s[0xbc][0x9d][0x87][0x97][0xe1][0x97]|[0xd4][0xeb][0xb0][0xcf]O[0xcb][0xc1][0xb8][0xf9][0xaf][0xe9]6[0xef][0xe3][0xeb][0xf0]q[0xbd]~[0xbe]n[0xb7][0xed]S[0xb6][0xaf][0xbb][0xd9]4[0x1f][0xb7][0x7][0x8c][0xf7]4[0xed][0xe][0xcb][0xa6][0xac][0xf1]6x[0xcb]8[0xd3][0xe0]%S@[0x14][0x82][0x87]LA3m[0x88][0x9a][0xe0]M[0xa6][0xca]1[0xf0]Du[0xf0]:S[0xe]L[0x8]EX[0x5][0xaf][0x12]6[0xd6]2X[0xa9][0xc]xN[0xa2][0xc2]0[0xc1]-a[0x11][0xbc]HX[[0x89]X[0x10][0xe6][0xc1][0xf3][0x8c][0x15]gRW[0xea]|p>Q[0x85][0xbf]$yv.8[0x97][0xa9][0xd4][0xcc]S"[0xce][0x6][0x97][0xd3][0x93][0x8e]3[0xe7][0x88]Bp9=[0xa9][0xd1][0xaf]$j[0x82][0xcb][0xe9][0x9][0xa7][0x98][0xa3][0xd0][0x9c][0xe].[0xa7]'[0xb4]e[0x8a][0x13]U[0xc1][0xe5][0xec][0x4]WL[0xd1]U8[0x11]\N[0x83]k[0xcd][0x84]Z[0x8f][0xe3][0xc1][0xa5]4[0x94][0xc7]X[0x4][0xa7][0xd8][0xac][0xf][0xd6]g[0xac][0xcd][0xe3][0xea][0xad][0xb][0xd6]e[0xca][0xd1][0x7][0xa7][0xbb][0xb7]6[0xd8][0x94][0x88]r`[0xd0]?Q[0x8][0x16]2[0xe5][0x9e][0x9][0xb9][0xfa]0[0xc1][0xa6]L[0x94][0xb5][0x9c][0x89][0xc7]j[0x1d][0xac][0xce]Xz[0xb6][0xae]U[0xc1][0xa6]L[0x14]`B@![[0x19]$[0xbe]Q[0xb2][0xc4][0x93][0xc5][0x93]E[0x81][0x81]O[0x16][0xbd][0x1b]p[0xc9][0xa2][0x1b][0x5][0x9b],z[0x9b][0x0][0xc9][0xa2]`[0xc0][0xa0][0xb5]^[0x11][0xe8]d[0xd1][0x9d][0x83][\n]"
+2021-12-04 14:24:31,257 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "M1B[0x8a]E[0xad][0xe7][0xa5]X[0xd4]z^[0x8a]E[0xa9][0xa7][0xfe][0xf9]c[0xfa]g<[0x9d]v[0xc3]o[0xe3][0x1c][0xdf][0xa7][0xef]M[0xd3][0x1c][0xe3][0xfe][0xeb][0xf4][0xc3][0x9e]Y[0xb0]i[0x8e][0xd8][0xaa][0xb7]7[0x86][0xcd][0xbb]=[0x17][0x17][0xdb]f[0xc3]v[0x8e][0xa7][0xb8][[0xe2][0xb2]y/~[0xb1][0xee][0xf1][0xd6][0xf0][0xbd][0xae]@[0xf5]@[0xf6]@ [0xc0][0xbb]o[0x0];[0x8d][0x97][0xdb][0xf7][0x82]E[0x83][0xef][0xe3][0xa5][0x87][0xbc][0xdf][0xcc][0xb8][0x19][0xdb][0xe3]y[0x1d]vF[0x7]l[0xf][0xa0][0x7][0xa6][0x7][0xba][0x7])Y[0xe9][0x1a] {[0x90][0x93][0xb5][\r][0xe0][0x1d][0xb0][0xbe][0x7]9Rh[0x80][0xed][0x1][0xf4][0xc0][0xf4]@[0xf7]@[0xf5]@[0xf6]@[0xf4][0x80]w[0x0]|[0xf]r[0xa4][0xa6][0x1]9R[0xdd][0x0][0xe8][0x81][0xe9]A[0x8e]T5@[0xf5] G*[0x1b][0x90]#[0x15][\r][0xe0][0x1d]0[0xbe][0x7][0xae][0x7][0xb6][0x7]9[0xd2][0xa6]L[0x8d]![0xd0][0xb6][0xd5][0x9f][0x9f]q[0xde]5[0xcd]4%[0xfb][0xff]4S^[0xb8]L[0xef][0xd7][0xfb]n[0x8e][0xc5]"I[0xea][+?[0xc4]Jz[0x12][0x9f][0x2]E[0xa3]=FW[0xc8][0x1b][0xe9][0x1]Q V[0xd5][0x93][0xf0][0x14][0xe8]:[0xdd])[0xd4]6[0xb2]c[0x9]B#:[0xae][0x1e][0x8f]e[0xf6][0xd0][0x1c]'+[0xd4][0x8d][0xe4][0x8]^[0x83][0xc2]z{H[0xe][0x90]S[0xd9]([0x8e][0xe3][0x15][0x8a]Fp[0x4]'[0xaf][0xbc][0x11][0x1c][0xe7][0xb][0xc4][0x2]|[0xe8][0x8d][0xaf]N[0xb1][0x8][0x1b][0xb9][0x11]5U[0xac][0xc4]Vm[0xea]YX[0x8e][0xf][0xb1][0xb1][0xe4][0xd5]4Z[0xe3][0xc8][0xab]n[0x94]FH[0xda][0xaf]Z[0xa5]Q5V,[0xd0]Fh[0xd6][0xb3][0xaa]@d[0xc3][0xf8][0xd6][0xa8][0xf2]P[0x8c][0xaa][0xe][0xc5][0xa8][0xe2]P[0x8c][0xaa][\r][0xc5][0xa8][0xd2]P[0x8c][0xaa][0xc][0xc5][0xa8][0xc2]P[0xc]Q[0x94][0xa0][0x18][0xbc]1t[0x8a][0x80]"[0xd6])[0x2]U[0xcf][0xd1])[0x2]Y/CC1[0x9e][0xa4]d[0xdc][0xcf]S*[0xdd][0xe1][0xd7][0xc3]16[0xc5]^"[0x82][0xff][0xac][0xfe]C[0xfc][0x16]O[0xc9]+;[0x93][0x87][0xdc][\n]"
+2021-12-04 14:24:31,257 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0xf1][0xf2]r[[0xb6]+{IN[0xb6][0xd7]i:-[0xdb]{|[0xab][0xdd][0xb0]I[0xd4]c[0x15][0xa7]W#[0xb8]K[0xdf][0xf6][0x8c][0xea][0xa8][0x86][0xe5]+[0x99]+[0xa8][0xce]i8'[0xe8]t[0x95][0x99][0xd5])[\r][0xb][0x8a]3[0xa3][\n]"
+2021-12-04 14:24:31,258 +0300 [main] DEBUG (Wire.java:87) - http-outgoing-0 << "[0xab]3[0x9a]OC^]V[0xe7]3[0xf]"[0xdd]TFu8[0xf3]\2[0x90][0x5][0xd5][0xc1][0xcc][0xc1][0xc3][0x1d][0xca][0x9c][0xe0]50[0x1a][0xc8],N[0x17]%.[0x1a][0xc6],7[0xb4][0x8d]&1[0x80][0xa4]"[0x99][0xd4])[0xc][0xf0][0xb][0x87][0xd3]dFu[0x4]3x[0x9c][0xad][0xab][0xea][0xfc]e[0xf2][0xa7]3[0x13][0x9a][0xbd][0xb0]vM=[0xf][0xdb][0xab][0xb4]7][0xd6]:[0x8a][0x9]H[0x9d][0x9d][0x11][0x8d]a[0x98][0xb1][0x10]e[0xd9]:[0x83][0x9]U[0xbd][0xd3][0xfc]%S[0x13][0x14]RG/[0xa9]VR[0xc7][0xae][0xd4][0xb7][0x95][0xd4][0x89]K([0x1c]I[0xb][0xd2]:|[0xce][0xf1][0x5][0xff]S[0xb8][0xee]N[0xa7]x(P[0x6][0x1c][0x92][0xad][0xc0][0x1]&[0x9b]"`[0x8f][0x81][0xf4]%}[0xcd][0x3]6[0xb2][0xe1]P[0xde][0x87]r[0x1][0xbf][0xb]Z[0xf9]b[0xca][0xd4][0x15][0xf8][0xa6][0x1d][0x14][0x93][0x7][0x91]^26[0xcd][0xbf][0xad][0x83]2[0xf1][0x9f][0xc][0x0][0x0]"
+2021-12-04 14:24:31,259 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:320) - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2021-12-04 14:24:31,260 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:326) - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-04 14:25:33,172 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testCheckout #################
+2021-12-04 14:25:39,404 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:25:39,405 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:25:39,407 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:25:39,409 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:25:39,409 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:25:39,846 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:25:39,847 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:25:39,849 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:25:39,850 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:25:39,850 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:27:22,061 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 14:27:46,583 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 14:27:52,527 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:27:52,528 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:27:52,530 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:27:52,531 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:27:52,531 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:27:52,797 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:27:52,798 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:27:52,799 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:27:52,800 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:27:52,800 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:31:24,464 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 14:32:02,606 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 14:32:08,562 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:32:08,563 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:32:08,565 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:32:08,566 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:32:08,566 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:32:08,823 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:32:08,823 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:32:08,824 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:32:08,825 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:32:08,825 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:32:35,760 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 14:39:21,531 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 14:39:45,395 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 14:39:51,335 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:39:51,336 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:39:51,337 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:39:51,339 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:39:51,339 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:39:51,601 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:39:51,601 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:39:51,602 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:39:51,602 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:39:51,602 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:43:51,618 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 14:44:51,527 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 14:44:57,411 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:44:57,413 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:44:57,414 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:44:57,415 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:44:57,415 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:44:57,671 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 14:44:57,672 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 14:44:57,673 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 14:44:57,673 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 14:44:57,673 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 14:59:42,131 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 15:00:41,382 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 15:00:47,245 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:00:47,248 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:00:47,251 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:00:47,253 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:00:47,254 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:00:47,559 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:00:47,560 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:00:47,561 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:00:47,562 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:00:47,562 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:08:39,515 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 15:09:35,107 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 15:09:41,002 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:09:41,003 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:09:41,005 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:09:41,006 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:09:41,006 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:09:41,259 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:09:41,260 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:09:41,261 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:09:41,261 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:09:41,262 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:47:39,349 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:47:40,598 +0300 [main] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: standard
+2021-12-04 15:47:40,598 +0300 [main] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2021-12-04 15:47:40,598 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:255) - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2021-12-04 15:47:40,629 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:288) - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-04 15:47:40,629 +0300 [main] DEBUG (MainClientExec.java:235) - Opening connection {s}->https://raw.githubusercontent.com:443
+2021-12-04 15:47:40,676 +0300 [main] DEBUG (DefaultHttpClientConnectionOperator.java:139) - Connecting to raw.githubusercontent.com/185.199.108.133:443
+2021-12-04 15:47:40,676 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:337) - Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 0
+2021-12-04 15:47:40,910 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2021-12-04 15:47:40,910 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2021-12-04 15:47:40,910 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:395) - Starting handshake
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:425) - Secure session established
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:435) -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:444) -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (DefaultHttpClientConnectionOperator.java:146) - Connection established 192.168.1.118:56858<->185.199.108.133:443
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:88) - http-outgoing-0: set socket timeout to 30000
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (MainClientExec.java:256) - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2021-12-04 15:47:41,129 +0300 [main] DEBUG (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:133) - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Connection: keep-alive
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Host: raw.githubusercontent.com
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-04 15:47:41,144 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Length: 1144[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-GitHub-Request-Id: AC0A:C83A:199D2A3:1AB7D39:61A9E818[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Date: Sat, 04 Dec 2021 12:47:41 GMT[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Served-By: cache-hhn4082-HHN[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Cache-Hits: 2[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Timer: S1638622062.882094,VS0,VE0[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Fastly-Request-ID: efce9ee99896ca0ce5e60ca4556a3d8a94cd5da5[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Expires: Sat, 04 Dec 2021 12:52:41 GMT[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Source-Age: 279[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:122) - http-outgoing-0 << HTTP/1.1 200 OK
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Connection: keep-alive
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Length: 1144
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Cache-Control: max-age=300
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Content-Type-Options: nosniff
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Frame-Options: deny
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-GitHub-Request-Id: AC0A:C83A:199D2A3:1AB7D39:61A9E818
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Encoding: gzip
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Accept-Ranges: bytes
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Date: Sat, 04 Dec 2021 12:47:41 GMT
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Via: 1.1 varnish
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Served-By: cache-hhn4082-HHN
+2021-12-04 15:47:41,223 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Cache: HIT
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Cache-Hits: 2
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Timer: S1638622062.882094,VS0,VE0
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Access-Control-Allow-Origin: *
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Fastly-Request-ID: efce9ee99896ca0ce5e60ca4556a3d8a94cd5da5
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Expires: Sat, 04 Dec 2021 12:52:41 GMT
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Source-Age: 279
+2021-12-04 15:47:41,238 +0300 [main] DEBUG (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2021-12-04 15:47:41,254 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x97][0xcb]n[0xeb]8[0xc][0x86][0xf7]y[\n]"
+2021-12-04 15:47:41,254 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0x3]g]EWJ*[0xa0][0xcd]\W[0x83]Y[0xcc][0xbc]@[0x9a][0xa8][0xa9]q[0x92][0xb8][0xb0][0x93][0x93][0x83]y[0xfa][0xa1].t[0x14][0xe1][0xc]0[0x8b][0xa2][0xe5]g[0x89]"e[0xd2]?[0xfb]e[0xf8][0xfb]c\[0x86][0xf7][0xf1][0x14][0x87][0xfd]t[0xb9][0xee][0xc6][0xcb]2\?[0xe2][0xf0][0xf5]2[0xdd]/[0xc3]a[0x1e][0xbf][0xc5]y[0xc0][0x9f]e[0x9c][0xf0][0xc9]~:[0xee][0xae][0xe3][0x1b][0xae][0xbe][0x8f][0xd7][0x8f][0xbc]r?[0xcd]s\>[0xa7][0xcb]a[0xbc][0x1c][0x87][0xb7]y[0xba]/[0x8f]-[0x9b][0xcd][0x97][0xe1][0xa7][0x82]^[0x87][0xdf][0xa7][0xe9][0x88];[0xfe][0x98][0xa7]s[0x1c]v[0x97]C[0xf9]s[0xbc][0x9d][0x87][0x97][0xe1][0x97]|[0xd4][0xeb][0xb0][0xcf]O[0xcb][0xc1][0xb8][0xf9][0xaf][0xe9]6[0xef][0xe3][0xeb][0xf0]q[0xbd]~[0xbe]n[0xb7][0xed]S[0xb6][0xaf][0xbb][0xd9]4[0x1f][0xb7][0x7][0x8c][0xf7]4[0xed][0xe][0xcb][0xa6][0xac][0xf1]6x[0xcb]8[0xd3][0xe0]%S@[0x14][0x82][0x87]LA3m[0x88][0x9a][0xe0]M[0xa6][0xca]1[0xf0]Du[0xf0]:S[0xe]L[0x8]EX[0x5][0xaf][0x12]6[0xd6]2X[0xa9][0xc]xN[0xa2][0xc2]0[0xc1]-a[0x11][0xbc]HX[[0x89]X[0x10][0xe6][0xc1][0xf3][0x8c][0x15]gRW[0xea]|p>Q[0x85][0xbf]$yv.8[0x97][0xa9][0xd4][0xcc]S"[0xce][0x6][0x97][0xd3][0x93][0x8e]3[0xe7][0x88]Bp9=[0xa9][0xd1][0xaf]$j[0x82][0xcb][0xe9][0x9][0xa7][0x98][0xa3][0xd0][0x9c][0xe].[0xa7]'[0xb4]e[0x8a][0x13]U[0xc1][0xe5][0xec][0x4]WL[0xd1]U8[0x11]\N[0x83]k[0xcd][0x84]Z[0x8f][0xe3][0xc1][0xa5]4[0x94][0xc7]X[0x4][0xa7][0xd8][0xac][0xf][0xd6]g[0xac][0xcd][0xe3][0xea][0xad][0xb][0xd6]e[0xca][0xd1][0x7][0xa7][0xbb][0xb7]6[0xd8][0x94][0x88]r`[0xd0]?Q[0x8][0x16]2[0xe5][0x9e][0x9][0xb9][0xfa]0[0xc1][0xa6]L[0x94][0xb5][0x9c][0x89][0xc7]j[0x1d][0xac][0xce]Xz[0xb6][0xae]U[0xc1][0xa6]L[0x14]`B@![[0x19]$[0xbe]Q[0xb2][0xc4][0x93][0xc5][0x93]E[0x81][0x81]O[0x16][0xbd][0x1b]p[0xc9][0xa2][0x1b][0x5][0x9b],z[0x9b][0x0][0xc9][0xa2]`[0xc0][0xa0][0xb5]^[0x11][0xe8]d[0xd1][0x9d][0x83][\n]"
+2021-12-04 15:47:41,254 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "M1B[0x8a]E[0xad][0xe7][0xa5]X[0xd4]z^[0x8a]E[0xa9][0xa7][0xfe][0xf9]c[0xfa]g<[0x9d]v[0xc3]o[0xe3][0x1c][0xdf][0xa7][0xef]M[0xd3][0x1c][0xe3][0xfe][0xeb][0xf4][0xc3][0x9e]Y[0xb0]i[0x8e][0xd8][0xaa][0xb7]7[0x86][0xcd][0xbb]=[0x17][0x17][0xdb]f[0xc3]v[0x8e][0xa7][0xb8][[0xe2][0xb2]y/~[0xb1][0xee][0xf1][0xd6][0xf0][0xbd][0xae]@[0xf5]@[0xf6]@ [0xc0][0xbb]o[0x0];[0x8d][0x97][0xdb][0xf7][0x82]E[0x83][0xef][0xe3][0xa5][0x87][0xbc][0xdf][0xcc][0xb8][0x19][0xdb][0xe3]y[0x1d]vF[0x7]l[0xf][0xa0][0x7][0xa6][0x7][0xba][0x7])Y[0xe9][0x1a] {[0x90][0x93][0xb5][\r][0xe0][0x1d][0xb0][0xbe][0x7]9Rh[0x80][0xed][0x1][0xf4][0xc0][0xf4]@[0xf7]@[0xf5]@[0xf6]@[0xf4][0x80]w[0x0]|[0xf]r[0xa4][0xa6][0x1]9R[0xdd][0x0][0xe8][0x81][0xe9]A[0x8e]T5@[0xf5] G*[0x1b][0x90]#[0x15][\r][0xe0][0x1d]0[0xbe][0x7][0xae][0x7][0xb6][0x7]9[0xd2][0xa6]L[0x8d]![0xd0][0xb6][0xd5][0x9f][0x9f]q[0xde]5[0xcd]4%[0xfb][0xff]4S^[0xb8]L[0xef][0xd7][0xfb]n[0x8e][0xc5]"I[0xea][+?[0xc4]Jz[0x12][0x9f][0x2]E[0xa3]=FW[0xc8][0x1b][0xe9][0x1]Q V[0xd5][0x93][0xf0][0x14][0xe8]:[0xdd])[0xd4]6[0xb2]c[0x9]B#:[0xae][0x1e][0x8f]e[0xf6][0xd0][0x1c]'+[0xd4][0x8d][0xe4][0x8]^[0x83][0xc2]z{H[0xe][0x90]S[0xd9]([0x8e][0xe3][0x15][0x8a]Fp[0x4]'[0xaf][0xbc][0x11][0x1c][0xe7][0xb][0xc4][0x2]|[0xe8][0x8d][0xaf]N[0xb1][0x8][0x1b][0xb9][0x11]5U[0xac][0xc4]Vm[0xea]YX[0x8e][0xf][0xb1][0xb1][0xe4][0xd5]4Z[0xe3][0xc8][0xab]n[0x94]FH[0xda][0xaf]Z[0xa5]Q5V,[0xd0]Fh[0xd6][0xb3][0xaa]@d[0xc3][0xf8][0xd6][0xa8][0xf2]P[0x8c][0xaa][0xe][0xc5][0xa8][0xe2]P[0x8c][0xaa][\r][0xc5][0xa8][0xd2]P[0x8c][0xaa][0xc][0xc5][0xa8][0xc2]P[0xc]Q[0x94][0xa0][0x18][0xbc]1t[0x8a][0x80]"[0xd6])[0x2]U[0xcf][0xd1])[0x2]Y/CC1[0x9e][0xa4]d[0xdc][0xcf]S*[0xdd][0xe1][0xd7][0xc3]16[0xc5]^"[0x82][0xff][0xac][0xfe]C[0xfc][0x16]O[0xc9]+;[0x93][0x87][0xdc][\n]"
+2021-12-04 15:47:41,254 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0xf1][0xf2]r[[0xb6]+{IN[0xb6][0xd7]i:-[0xdb]{|[0xab][0xdd][0xb0]I[0xd4]c[0x15][0xa7]W#[0xb8]K[0xdf][0xf6][0x8c][0xea][0xa8][0x86][0xe5]+[0x99]+[0xa8][0xce]i8'[0xe8]t[0x95][0x99][0xd5])[\r][0xb][0x8a]3[0xa3][\n]"
+2021-12-04 15:47:41,254 +0300 [main] DEBUG (Wire.java:87) - http-outgoing-0 << "[0xab]3[0x9a]OC^]V[0xe7]3[0xf]"[0xdd]TFu8[0xf3]\2[0x90][0x5][0xd5][0xc1][0xcc][0xc1][0xc3][0x1d][0xca][0x9c][0xe0]50[0x1a][0xc8],N[0x17]%.[0x1a][0xc6],7[0xb4][0x8d]&1[0x80][0xa4]"[0x99][0xd4])[0xc][0xf0][0xb][0x87][0xd3]dFu[0x4]3x[0x9c][0xad][0xab][0xea][0xfc]e[0xf2][0xa7]3[0x13][0x9a][0xbd][0xb0]vM=[0xf][0xdb][0xab][0xb4]7][0xd6]:[0x8a][0x9]H[0x9d][0x9d][0x11][0x8d]a[0x98][0xb1][0x10]e[0xd9]:[0x83][0x9]U[0xbd][0xd3][0xfc]%S[0x13][0x14]RG/[0xa9]VR[0xc7][0xae][0xd4][0xb7][0x95][0xd4][0x89]K([0x1c]I[0xb][0xd2]:|[0xce][0xf1][0x5][0xff]S[0xb8][0xee]N[0xa7]x(P[0x6][0x1c][0x92][0xad][0xc0][0x1]&[0x9b]"`[0x8f][0x81][0xf4]%}[0xcd][0x3]6[0xb2][0xe1]P[0xde][0x87]r[0x1][0xbf][0xb]Z[0xf9]b[0xca][0xd4][0x15][0xf8][0xa6][0x1d][0x14][0x93][0x7][0x91]^26[0xcd][0xbf][0xad][0x83]2[0xf1][0x9f][0xc][0x0][0x0]"
+2021-12-04 15:47:41,254 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:320) - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2021-12-04 15:47:41,254 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:326) - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-04 15:48:09,019 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:48:14,899 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:48:41,479 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:48:47,377 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:49:14,177 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:49:20,028 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:49:46,739 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:49:52,607 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:50:00,766 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:394) - Connection manager is shutting down
+2021-12-04 15:50:00,766 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:400) - Connection manager shut down
+2021-12-04 15:50:19,430 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:50:25,351 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:50:40,484 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:394) - Connection manager is shutting down
+2021-12-04 15:50:40,485 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:400) - Connection manager shut down
+2021-12-04 15:50:52,588 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:50:58,422 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:51:15,465 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:394) - Connection manager is shutting down
+2021-12-04 15:51:15,466 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:400) - Connection manager shut down
+2021-12-04 15:51:26,901 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:51:32,807 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:51:32,807 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:51:32,807 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:51:32,807 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:51:32,807 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:51:33,119 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:51:33,119 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:51:33,119 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:51:33,119 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:51:33,119 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:55:13,164 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:55:41,377 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:55:47,230 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:56:13,810 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:56:19,666 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:56:46,139 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:56:52,030 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:56:52,030 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:56:52,030 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:56:52,030 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:56:52,030 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:56:52,311 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 15:56:52,311 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 15:56:52,311 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 15:56:52,311 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 15:56:52,311 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 15:58:47,841 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:59:16,554 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:59:22,398 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 15:59:49,494 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 15:59:55,375 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 16:00:22,668 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 16:00:28,579 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 16:00:28,579 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 16:00:28,579 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 16:00:28,595 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 16:00:28,595 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 16:00:28,860 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 16:00:28,860 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 16:00:28,876 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 16:00:28,876 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 16:00:28,876 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 16:04:25,532 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 16:04:54,012 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 16:04:59,882 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 16:05:26,882 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 16:05:32,716 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testApplyingSortOrder #################
+2021-12-04 16:05:59,621 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testApplyingSortOrder #################
+2021-12-04 16:06:05,627 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 16:06:05,627 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 16:06:05,627 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 16:06:05,627 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 16:06:05,627 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 16:06:05,893 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 16:06:05,893 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 16:06:05,893 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 16:06:05,893 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 16:06:05,893 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 16:57:49,853 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testFiltreleme #################
+2021-12-04 16:57:50,837 +0300 [main] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: standard
+2021-12-04 16:57:50,837 +0300 [main] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2021-12-04 16:57:50,837 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:255) - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2021-12-04 16:57:50,868 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:288) - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-04 16:57:50,868 +0300 [main] DEBUG (MainClientExec.java:235) - Opening connection {s}->https://raw.githubusercontent.com:443
+2021-12-04 16:57:50,899 +0300 [main] DEBUG (DefaultHttpClientConnectionOperator.java:139) - Connecting to raw.githubusercontent.com/185.199.110.133:443
+2021-12-04 16:57:50,899 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:337) - Connecting socket to raw.githubusercontent.com/185.199.110.133:443 with timeout 0
+2021-12-04 16:57:51,120 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2021-12-04 16:57:51,120 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2021-12-04 16:57:51,120 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:395) - Starting handshake
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:425) - Secure session established
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:435) -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:444) -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (DefaultHttpClientConnectionOperator.java:146) - Connection established 192.168.1.118:58443<->185.199.110.133:443
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:88) - http-outgoing-0: set socket timeout to 30000
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (MainClientExec.java:256) - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2021-12-04 16:57:51,363 +0300 [main] DEBUG (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:133) - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Connection: keep-alive
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Host: raw.githubusercontent.com
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-12-04 16:57:51,379 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 >> "[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Length: 1144[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"[\r][\n]"
+2021-12-04 16:57:51,472 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-GitHub-Request-Id: AC0A:C83A:199D2A3:1AB7D39:61A9E818[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Date: Sat, 04 Dec 2021 13:57:52 GMT[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Served-By: cache-hhn4057-HHN[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Timer: S1638626272.203255,VS0,VE1[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "X-Fastly-Request-ID: 2279c62df7df9849a9202945838bff6ebe0f5c6f[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Expires: Sat, 04 Dec 2021 14:02:52 GMT[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "Source-Age: 182[\r][\n]"
+2021-12-04 16:57:51,488 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:122) - http-outgoing-0 << HTTP/1.1 200 OK
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Connection: keep-alive
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Length: 1144
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Cache-Control: max-age=300
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << ETag: W/"aadc8d5d9ea31bd37c0696d45d6f1062005a1e24cc71d4d4c8317eabdfbf0861"
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Content-Type-Options: nosniff
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Frame-Options: deny
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-GitHub-Request-Id: AC0A:C83A:199D2A3:1AB7D39:61A9E818
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Encoding: gzip
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Accept-Ranges: bytes
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Date: Sat, 04 Dec 2021 13:57:52 GMT
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Via: 1.1 varnish
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Served-By: cache-hhn4057-HHN
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Cache: HIT
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Cache-Hits: 1
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Timer: S1638626272.203255,VS0,VE1
+2021-12-04 16:57:51,504 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Access-Control-Allow-Origin: *
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Fastly-Request-ID: 2279c62df7df9849a9202945838bff6ebe0f5c6f
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Expires: Sat, 04 Dec 2021 14:02:52 GMT
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Source-Age: 182
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x97][0xcb]n[0xeb]8[0xc][0x86][0xf7]y[\n]"
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0x3]g]EWJ*[0xa0][0xcd]\W[0x83]Y[0xcc][0xbc]@[0x9a][0xa8][0xa9]q[0x92][0xb8][0xb0][0x93][0x93][0x83]y[0xfa][0xa1].t[0x14][0xe1][0xc]0[0x8b][0xa2][0xe5]g[0x89]"e[0xd2]?[0xfb]e[0xf8][0xfb]c\[0x86][0xf7][0xf1][0x14][0x87][0xfd]t[0xb9][0xee][0xc6][0xcb]2\?[0xe2][0xf0][0xf5]2[0xdd]/[0xc3]a[0x1e][0xbf][0xc5]y[0xc0][0x9f]e[0x9c][0xf0][0xc9]~:[0xee][0xae][0xe3][0x1b][0xae][0xbe][0x8f][0xd7][0x8f][0xbc]r?[0xcd]s\>[0xa7][0xcb]a[0xbc][0x1c][0x87][0xb7]y[0xba]/[0x8f]-[0x9b][0xcd][0x97][0xe1][0xa7][0x82]^[0x87][0xdf][0xa7][0xe9][0x88];[0xfe][0x98][0xa7]s[0x1c]v[0x97]C[0xf9]s[0xbc][0x9d][0x87][0x97][0xe1][0x97]|[0xd4][0xeb][0xb0][0xcf]O[0xcb][0xc1][0xb8][0xf9][0xaf][0xe9]6[0xef][0xe3][0xeb][0xf0]q[0xbd]~[0xbe]n[0xb7][0xed]S[0xb6][0xaf][0xbb][0xd9]4[0x1f][0xb7][0x7][0x8c][0xf7]4[0xed][0xe][0xcb][0xa6][0xac][0xf1]6x[0xcb]8[0xd3][0xe0]%S@[0x14][0x82][0x87]LA3m[0x88][0x9a][0xe0]M[0xa6][0xca]1[0xf0]Du[0xf0]:S[0xe]L[0x8]EX[0x5][0xaf][0x12]6[0xd6]2X[0xa9][0xc]xN[0xa2][0xc2]0[0xc1]-a[0x11][0xbc]HX[[0x89]X[0x10][0xe6][0xc1][0xf3][0x8c][0x15]gRW[0xea]|p>Q[0x85][0xbf]$yv.8[0x97][0xa9][0xd4][0xcc]S"[0xce][0x6][0x97][0xd3][0x93][0x8e]3[0xe7][0x88]Bp9=[0xa9][0xd1][0xaf]$j[0x82][0xcb][0xe9][0x9][0xa7][0x98][0xa3][0xd0][0x9c][0xe].[0xa7]'[0xb4]e[0x8a][0x13]U[0xc1][0xe5][0xec][0x4]WL[0xd1]U8[0x11]\N[0x83]k[0xcd][0x84]Z[0x8f][0xe3][0xc1][0xa5]4[0x94][0xc7]X[0x4][0xa7][0xd8][0xac][0xf][0xd6]g[0xac][0xcd][0xe3][0xea][0xad][0xb][0xd6]e[0xca][0xd1][0x7][0xa7][0xbb][0xb7]6[0xd8][0x94][0x88]r`[0xd0]?Q[0x8][0x16]2[0xe5][0x9e][0x9][0xb9][0xfa]0[0xc1][0xa6]L[0x94][0xb5][0x9c][0x89][0xc7]j[0x1d][0xac][0xce]Xz[0xb6][0xae]U[0xc1][0xa6]L[0x14]`B@![[0x19]$[0xbe]Q[0xb2][0xc4][0x93][0xc5][0x93]E[0x81][0x81]O[0x16][0xbd][0x1b]p[0xc9][0xa2][0x1b][0x5][0x9b],z[0x9b][0x0][0xc9][0xa2]`[0xc0][0xa0][0xb5]^[0x11][0xe8]d[0xd1][0x9d][0x83][\n]"
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "M1B[0x8a]E[0xad][0xe7][0xa5]X[0xd4]z^[0x8a]E[0xa9][0xa7][0xfe][0xf9]c[0xfa]g<[0x9d]v[0xc3]o[0xe3][0x1c][0xdf][0xa7][0xef]M[0xd3][0x1c][0xe3][0xfe][0xeb][0xf4][0xc3][0x9e]Y[0xb0]i[0x8e][0xd8][0xaa][0xb7]7[0x86][0xcd][0xbb]=[0x17][0x17][0xdb]f[0xc3]v[0x8e][0xa7][0xb8][[0xe2][0xb2]y/~[0xb1][0xee][0xf1][0xd6][0xf0][0xbd][0xae]@[0xf5]@[0xf6]@ [0xc0][0xbb]o[0x0];[0x8d][0x97][0xdb][0xf7][0x82]E[0x83][0xef][0xe3][0xa5][0x87][0xbc][0xdf][0xcc][0xb8][0x19][0xdb][0xe3]y[0x1d]vF[0x7]l[0xf][0xa0][0x7][0xa6][0x7][0xba][0x7])Y[0xe9][0x1a] {[0x90][0x93][0xb5][\r][0xe0][0x1d][0xb0][0xbe][0x7]9Rh[0x80][0xed][0x1][0xf4][0xc0][0xf4]@[0xf7]@[0xf5]@[0xf6]@[0xf4][0x80]w[0x0]|[0xf]r[0xa4][0xa6][0x1]9R[0xdd][0x0][0xe8][0x81][0xe9]A[0x8e]T5@[0xf5] G*[0x1b][0x90]#[0x15][\r][0xe0][0x1d]0[0xbe][0x7][0xae][0x7][0xb6][0x7]9[0xd2][0xa6]L[0x8d]![0xd0][0xb6][0xd5][0x9f][0x9f]q[0xde]5[0xcd]4%[0xfb][0xff]4S^[0xb8]L[0xef][0xd7][0xfb]n[0x8e][0xc5]"I[0xea][+?[0xc4]Jz[0x12][0x9f][0x2]E[0xa3]=FW[0xc8][0x1b][0xe9][0x1]Q V[0xd5][0x93][0xf0][0x14][0xe8]:[0xdd])[0xd4]6[0xb2]c[0x9]B#:[0xae][0x1e][0x8f]e[0xf6][0xd0][0x1c]'+[0xd4][0x8d][0xe4][0x8]^[0x83][0xc2]z{H[0xe][0x90]S[0xd9]([0x8e][0xe3][0x15][0x8a]Fp[0x4]'[0xaf][0xbc][0x11][0x1c][0xe7][0xb][0xc4][0x2]|[0xe8][0x8d][0xaf]N[0xb1][0x8][0x1b][0xb9][0x11]5U[0xac][0xc4]Vm[0xea]YX[0x8e][0xf][0xb1][0xb1][0xe4][0xd5]4Z[0xe3][0xc8][0xab]n[0x94]FH[0xda][0xaf]Z[0xa5]Q5V,[0xd0]Fh[0xd6][0xb3][0xaa]@d[0xc3][0xf8][0xd6][0xa8][0xf2]P[0x8c][0xaa][0xe][0xc5][0xa8][0xe2]P[0x8c][0xaa][\r][0xc5][0xa8][0xd2]P[0x8c][0xaa][0xc][0xc5][0xa8][0xc2]P[0xc]Q[0x94][0xa0][0x18][0xbc]1t[0x8a][0x80]"[0xd6])[0x2]U[0xcf][0xd1])[0x2]Y/CC1[0x9e][0xa4]d[0xdc][0xcf]S*[0xdd][0xe1][0xd7][0xc3]16[0xc5]^"[0x82][0xff][0xac][0xfe]C[0xfc][0x16]O[0xc9]+;[0x93][0x87][0xdc][\n]"
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (Wire.java:73) - http-outgoing-0 << "[0xf1][0xf2]r[[0xb6]+{IN[0xb6][0xd7]i:-[0xdb]{|[0xab][0xdd][0xb0]I[0xd4]c[0x15][0xa7]W#[0xb8]K[0xdf][0xf6][0x8c][0xea][0xa8][0x86][0xe5]+[0x99]+[0xa8][0xce]i8'[0xe8]t[0x95][0x99][0xd5])[\r][0xb][0x8a]3[0xa3][\n]"
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (Wire.java:87) - http-outgoing-0 << "[0xab]3[0x9a]OC^]V[0xe7]3[0xf]"[0xdd]TFu8[0xf3]\2[0x90][0x5][0xd5][0xc1][0xcc][0xc1][0xc3][0x1d][0xca][0x9c][0xe0]50[0x1a][0xc8],N[0x17]%.[0x1a][0xc6],7[0xb4][0x8d]&1[0x80][0xa4]"[0x99][0xd4])[0xc][0xf0][0xb][0x87][0xd3]dFu[0x4]3x[0x9c][0xad][0xab][0xea][0xfc]e[0xf2][0xa7]3[0x13][0x9a][0xbd][0xb0]vM=[0xf][0xdb][0xab][0xb4]7][0xd6]:[0x8a][0x9]H[0x9d][0x9d][0x11][0x8d]a[0x98][0xb1][0x10]e[0xd9]:[0x83][0x9]U[0xbd][0xd3][0xfc]%S[0x13][0x14]RG/[0xa9]VR[0xc7][0xae][0xd4][0xb7][0x95][0xd4][0x89]K([0x1c]I[0xb][0xd2]:|[0xce][0xf1][0x5][0xff]S[0xb8][0xee]N[0xa7]x(P[0x6][0x1c][0x92][0xad][0xc0][0x1]&[0x9b]"`[0x8f][0x81][0xf4]%}[0xcd][0x3]6[0xb2][0xe1]P[0xde][0x87]r[0x1][0xbf][0xb]Z[0xf9]b[0xca][0xd4][0x15][0xf8][0xa6][0x1d][0x14][0x93][0x7][0x91]^26[0xcd][0xbf][0xad][0x83]2[0xf1][0x9f][0xc][0x0][0x0]"
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:320) - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2021-12-04 16:57:51,519 +0300 [main] DEBUG (PoolingHttpClientConnectionManager.java:326) - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-12-04 16:58:18,591 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testFiltreleme #################
+2021-12-04 16:58:24,437 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testFiltreleme #################
+2021-12-04 16:58:50,572 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testFiltreleme #################
+2021-12-04 16:58:56,395 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testFiltreleme #################
+2021-12-04 16:59:23,208 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testFiltreleme #################
+2021-12-04 16:59:29,028 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testFiltreleme #################
+2021-12-04 16:59:37,066 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:394) - Connection manager is shutting down
+2021-12-04 16:59:37,066 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:400) - Connection manager shut down
+2021-12-04 16:59:55,539 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testFiltreleme #################
+2021-12-04 17:00:01,369 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testFiltreleme #################
+2021-12-04 17:00:16,380 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:394) - Connection manager is shutting down
+2021-12-04 17:00:16,381 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:400) - Connection manager shut down
+2021-12-04 17:00:27,706 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testFiltreleme #################
+2021-12-04 17:00:33,542 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testFiltreleme #################
+2021-12-04 17:00:41,300 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:394) - Connection manager is shutting down
+2021-12-04 17:00:41,301 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:400) - Connection manager shut down
+2021-12-04 17:00:59,802 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testFiltreleme #################
+2021-12-04 17:01:05,632 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testFiltreleme #################
+2021-12-04 17:01:13,474 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:394) - Connection manager is shutting down
+2021-12-04 17:01:13,474 +0300 [Finalizer] DEBUG (PoolingHttpClientConnectionManager.java:400) - Connection manager shut down
+2021-12-04 17:01:32,092 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testFiltreleme #################
+2021-12-04 17:01:37,955 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:01:37,955 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:01:37,955 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:01:37,955 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:01:37,955 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:01:38,252 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:01:38,252 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:01:38,252 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:01:38,252 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:01:38,252 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:05:33,332 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 17:06:24,343 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 17:06:30,363 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:06:30,363 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:06:30,378 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:06:30,378 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:06:30,378 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:06:30,660 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:06:30,660 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:06:30,660 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:06:30,660 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:06:30,660 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:07:01,100 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 17:07:50,629 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 17:07:56,531 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:07:56,546 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:07:56,546 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:07:56,546 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:07:56,546 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:07:56,812 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:07:56,812 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:07:56,812 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:07:56,812 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:07:56,812 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:09:30,980 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testAltMenu #################
+2021-12-04 17:09:54,728 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testAltMenu #################
+2021-12-04 17:10:00,629 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:10:00,629 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:10:00,629 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:10:00,629 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:10:00,629 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:10:00,895 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:10:00,895 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:10:00,910 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:10:00,910 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:10:00,910 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:12:55,679 +0300 [main] INFO  (TestBase.java:81) - ################# Starting testCheckout #################
+2021-12-04 17:14:25,424 +0300 [main] INFO  (TestBase.java:155) - ################# Ending testCheckout #################
+2021-12-04 17:14:31,362 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:14:31,362 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:14:31,362 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:14:31,362 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:14:31,362 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-12-04 17:14:31,643 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-12-04 17:14:31,643 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-12-04 17:14:31,643 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-12-04 17:14:31,643 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-12-04 17:14:31,643 +0300 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rsivr/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

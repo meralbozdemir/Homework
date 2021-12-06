@@ -2,66 +2,66 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="127203" started-at="2021-12-02T06:07:36Z" finished-at="2021-12-02T06:09:43Z">
+  <suite name="Default suite" duration-ms="206322" started-at="2021-12-04T19:02:42 EET" finished-at="2021-12-04T19:06:09 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="127203" started-at="2021-12-02T06:07:36Z" finished-at="2021-12-02T06:09:43Z">
-      <class name="com.mertyazilim.tests.CheckoutWithSignIN">
-        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255]" name="beforeSuit" is-config="true" duration-ms="408" started-at="2021-12-02T06:07:36Z" finished-at="2021-12-02T06:07:36Z">
+    <test name="Default test" duration-ms="206322" started-at="2021-12-04T19:02:42 EET" finished-at="2021-12-04T19:06:09 EET">
+      <class name="com.mertyazilim.tests.CheckoutWithSignUP">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247]" name="beforeSuit" is-config="true" duration-ms="1980" started-at="2021-12-04T19:02:40 EET" finished-at="2021-12-04T19:02:42 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method status="PASS" signature="setExtent(org.testng.ITestContext)[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255]" name="setExtent" is-config="true" duration-ms="440" started-at="2021-12-02T06:07:36Z" finished-at="2021-12-02T06:07:37Z">
+        <test-method status="PASS" signature="setExtent(org.testng.ITestContext)[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247]" name="setExtent" is-config="true" duration-ms="555" started-at="2021-12-04T19:02:42 EET" finished-at="2021-12-04T19:02:43 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@e041f0c]]>
+                <![CDATA[org.testng.TestRunner@76adb233]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255]" name="beforeMethod" is-config="true" duration-ms="16222" started-at="2021-12-02T06:07:37Z" finished-at="2021-12-02T06:07:53Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247]" name="beforeMethod" is-config="true" duration-ms="19726" started-at="2021-12-04T19:02:43 EET" finished-at="2021-12-04T19:03:03 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mertyazilim.tests.CheckoutWithSignIN.testCheckout() throws java.io.IOException,java.lang.InterruptedException]]>
+                <![CDATA[public void com.mertyazilim.tests.CheckoutWithSignUP.testCheckout() throws java.io.IOException,java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCheckout()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255]" name="testCheckout" duration-ms="103877" started-at="2021-12-02T06:07:53Z" finished-at="2021-12-02T06:09:37Z">
+        <test-method status="PASS" signature="testCheckout()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247]" name="testCheckout" duration-ms="178299" started-at="2021-12-04T19:03:03 EET" finished-at="2021-12-04T19:06:01 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckout -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255]" name="tearDown" is-config="true" duration-ms="6122" started-at="2021-12-02T06:09:37Z" finished-at="2021-12-02T06:09:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247]" name="tearDown" is-config="true" duration-ms="6549" started-at="2021-12-04T19:06:01 EET" finished-at="2021-12-04T19:06:08 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCheckout status=SUCCESS method=CheckoutWithSignIN.testCheckout()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255] output={null}]]]>
+                <![CDATA[[TestResult name=testCheckout status=SUCCESS method=CheckoutWithSignUP.testCheckout()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.mertyazilim.tests.CheckoutWithSignIN.testCheckout() throws java.io.IOException,java.lang.InterruptedException]]>
+                <![CDATA[public void com.mertyazilim.tests.CheckoutWithSignUP.testCheckout() throws java.io.IOException,java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255]" name="endReport" is-config="true" duration-ms="475" started-at="2021-12-02T06:09:43Z" finished-at="2021-12-02T06:09:43Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247]" name="endReport" is-config="true" duration-ms="1089" started-at="2021-12-04T19:06:08 EET" finished-at="2021-12-04T19:06:09 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="endSuit()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignIN@5bc79255]" name="endSuit" is-config="true" duration-ms="0" started-at="2021-12-02T06:09:44Z" finished-at="2021-12-02T06:09:44Z">
+        <test-method status="PASS" signature="endSuit()[pri:0, instance:com.mertyazilim.tests.CheckoutWithSignUP@192d3247]" name="endSuit" is-config="true" duration-ms="1" started-at="2021-12-04T19:06:09 EET" finished-at="2021-12-04T19:06:09 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSuit -->
-      </class> <!-- com.mertyazilim.tests.CheckoutWithSignIN -->
+      </class> <!-- com.mertyazilim.tests.CheckoutWithSignUP -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

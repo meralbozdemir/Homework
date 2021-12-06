@@ -281,9 +281,17 @@ public class PageBase extends PageFactory {
 	@FindBy(id ="SubmitLogin")
 	WebElement login;
 	
+	//filtre kutu
+	@FindBy(id ="selectProductSort")
+	WebElement filterBox;
+	
 	//
 	@FindBy(id ="")
-	WebElement f;
+	WebElement b;
+	
+	//
+	@FindBy(id ="")
+	WebElement c;
 	
 //	// ===Status Fields======
 //

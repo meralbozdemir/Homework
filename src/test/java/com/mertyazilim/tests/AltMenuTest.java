@@ -3,7 +3,7 @@ package com.mertyazilim.tests;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.ExtentReports;
 import java.io.IOException;
-import org.testng.Assert;
+
 
 public class AltMenuTest extends TestBase {
 

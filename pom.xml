@@ -1,33 +1,42 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>RS</groupId>
-  <artifactId>Homework</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-   
-  <dependencies>
-  <dependency>
-    <groupId>com.github.wnameless</groupId>
-    <artifactId>json-flattener</artifactId>
-    <version>0.2.2</version>
-</dependency>
-  
-  <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-  
-  
-  <dependency>
-    <groupId>com.paulhammant</groupId>
-    <artifactId>ngwebdriver</artifactId>
-    <version>1.1.4</version>
-</dependency>
-  
-  
-  <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-core-asl -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Tracfone</groupId>
+	<artifactId>TracfoneAutomation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>API and Selenium WebDriver</name>
+	<description>Use to automate Company Tests</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.wnameless</groupId>
+			<artifactId>json-flattener</artifactId>
+			<version>0.2.2</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.paulhammant</groupId>
+			<artifactId>ngwebdriver</artifactId>
+			<version>1.1.4</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-core-asl -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-core-asl</artifactId>
@@ -64,7 +73,7 @@
 			<version>4.0.0</version>
 		</dependency>
 
-<dependency>
+		<dependency>
 			<groupId>com.github.scribejava</groupId>
 			<artifactId>scribejava-apis</artifactId>
 			<version>2.5.3</version>
@@ -83,18 +92,18 @@
 			<version>2.4.0</version>
 		</dependency>
 
-<dependency>
-    <groupId>com.jayway.jsonpath</groupId>
-    <artifactId>json-path-assert</artifactId>
-    <version>2.2.0</version>
-</dependency>
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path-assert</artifactId>
+			<version>2.2.0</version>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
-<dependency>
-    <groupId>com.github.stephenc.monte</groupId>
-    <artifactId>monte-screen-recorder</artifactId>
-    <version>0.7.7.0</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+		<dependency>
+			<groupId>com.github.stephenc.monte</groupId>
+			<artifactId>monte-screen-recorder</artifactId>
+			<version>0.7.7.0</version>
+		</dependency>
 
 
 		<dependency>
@@ -103,7 +112,7 @@
 			<version>1.1.1</version>
 		</dependency>
 
-		
+
 
 
 
@@ -129,7 +138,7 @@
 			<version>3.3.0</version>
 		</dependency>
 
-  <dependency>
+		<dependency>
 			<groupId>com.sun.xml.ws</groupId>
 			<artifactId>jaxws-rt</artifactId>
 			<version>2.1.4</version>
@@ -151,33 +160,36 @@
 			<version>2.41.2</version>
 		</dependency>
 
-   <dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>3.17</version>
-</dependency>
-   <dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>3.17</version>
-</dependency>
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
-</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
 
-  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>6.14.3</version>
-    <scope>test</scope>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng <dependency> 
+			<groupId>org.testng</groupId> <artifactId>testng</artifactId> <version>6.14.3</version> 
+			<scope>test</scope> </dependency> -->
 
-     </dependencies>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.1.0</version>
+			<scope>test</scope>
+		</dependency>
 
-  
-  
+
+	</dependencies>
+
 </project>

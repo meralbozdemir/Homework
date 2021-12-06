@@ -12,7 +12,7 @@ public class CheckoutWithSignIN extends TestBase {
 	public void testCheckout() throws IOException, InterruptedException {
 
 		ExtentReports extent = this.extent;
-		extentTest = extent.startTest("Checkout Test With Sign In");
+		extentTest = extent.startTest("Kayitli kullanici Checkout");
 		extentTest.setDescription("Running Environment : " + testConfig.getProperty("environment"));
 
 		testResult=homePage.goMertPage().altMenu(jobNo, date, extentTest)

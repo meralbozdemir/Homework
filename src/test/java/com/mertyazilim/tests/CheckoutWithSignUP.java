@@ -11,7 +11,7 @@ public class CheckoutWithSignUP extends TestBase {
 	public void testCheckout() throws IOException, InterruptedException {
 
 		ExtentReports extent = this.extent;
-		extentTest = extent.startTest("Alt Menu Test");
+		extentTest = extent.startTest("Kayitsiz kullanici Checkout");
 		extentTest.setDescription("Running Environment : " + testConfig.getProperty("environment"));
 
 		testResult=homePage.goMertPage().altMenu(jobNo, date, extentTest)

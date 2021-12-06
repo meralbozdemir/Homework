@@ -4,20 +4,18 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.ExtentReports;
 import java.io.IOException;
 
-
 public class ListViewTest extends TestBase {
 
-	@Test 
+	@Test
 	public void testAltMenu() throws IOException, InterruptedException {
 
 		ExtentReports extent = this.extent;
-		extentTest = extent.startTest("Alt Menu Test");
+		extentTest = extent.startTest("List View Test");
 		extentTest.setDescription("Running Environment : " + testConfig.getProperty("environment"));
 
-				homePage.goMertPage().altMenu(jobNo, date, extentTest)
-				.listView(jobNo, date, extentTest)
+		homePage.goMertPage().altMenu(jobNo, date, extentTest).listView(jobNo, date, extentTest)
 
-				;
+		;
 
 	}
 

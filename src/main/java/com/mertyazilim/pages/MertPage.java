@@ -95,6 +95,24 @@ public class MertPage extends PageBase {
 		return new MertPage(driver);
 	}
 
+
+	public MertPage setSortOrder(int jobNo, String date, ExtentTest extentTest,String sortOrder) throws IOException, InterruptedException {
+
+		Select filtreBox = new Select(filterBox);//Bu test aslinda FAIL cunku filtreleme gerceklesmiyor.
+		filtreBox.selectByVisibleText(sortOrder);
+		System.out.println("Secili Filtre : " + filtreBox.getFirstSelectedOption().getText());
+		screenshotPath = Screenshots.getScreenshot(driver, "Sayfa Alti", jobNo, date);
+		extentTest.log(LogStatus.PASS, extentTest.addScreenCapture(screenshotPath));
+		waitForNextElement(1);
+		
+		return new MertPage(driver);
+	}
+
+	public String getSortOrder() {
+		Select filtreBox = new Select(filterBox);
+		return filtreBox.getFirstSelectedOption().getText();
+	}
+	
 	public MertPage listView(int jobNo, String date, ExtentTest extentTest) throws IOException, InterruptedException {
 		waitForNextElement(1);
 		js.drawBorder(listView, driver);

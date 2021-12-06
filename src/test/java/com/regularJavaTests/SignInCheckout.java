@@ -1,14 +1,11 @@
 package com.regularJavaTests;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 
 public class SignInCheckout {
 
@@ -80,6 +77,7 @@ public class SignInCheckout {
 		Thread.sleep(5000);
 		
 		driver.findElement(By.xpath("//*[@id=\"cart_navigation\"]/button")).click();
+		js.executeScript("window.scrollBy(0,300)");
 		Thread.sleep(7000);
 		
 		String pageText = js.executeScript("return document.documentElement.innerText;").toString();//Sayfanin textini depola

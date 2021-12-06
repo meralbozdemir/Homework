@@ -11,7 +11,7 @@ public class LoginTest extends TestBase {
 	public void testSuccessfulLogin(String username, String password) throws IOException {
 
 		ExtentReports extent = this.extent;
-		extentTest = extent.startTest("IT Career Center Login with : "+username);
+		extentTest = extent.startTest("IT Career Center Login : "+username);
 		extentTest.setDescription("Running Environment : " + testConfig.getProperty("environment"));
 
 	testResult = homePage.clickMyAccountLink(extentTest, jobNo, date).loginAs(jobNo,date, username, password, extentTest)

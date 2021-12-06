@@ -3,7 +3,7 @@ package com.mertyazilim.tests;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.ExtentReports;
 import java.io.IOException;
-import org.testng.Assert;
+
 
 public class AddToCart extends TestBase {
 
@@ -11,7 +11,7 @@ public class AddToCart extends TestBase {
 	public void testAltMenu() throws IOException, InterruptedException {
 
 		ExtentReports extent = this.extent;
-		extentTest = extent.startTest("Alt Menu Test");
+		extentTest = extent.startTest("Add To Cart Test");
 		extentTest.setDescription("Running Environment : " + testConfig.getProperty("environment"));
 
 				homePage.goMertPage().altMenu(jobNo, date, extentTest)
