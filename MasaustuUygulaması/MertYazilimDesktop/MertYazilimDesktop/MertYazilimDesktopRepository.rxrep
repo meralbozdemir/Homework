@@ -1,0 +1,403 @@
+﻿<repository
+id="50684882-5794-4aa3-8580-7a37b05c99e5"
+name="MertYazilimDesktopRepository">
+	<codegen
+	classname="MertYazilimDesktopRepository"
+	namespace="MertYazilimDesktop">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c4440b68-3cc0-4846-89dc-2968f202a285"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wordapplication"
+		capname="form"
+		id="8eaa4670-017d-49a0-8149-e832500f7ceb"
+		isrooted="True"
+		name="Belge1MicrosoftWord"
+		refpath="/form[@title='Belge1 - Microsoft Word']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="93cee34b-82af-49ca-a0a0-f52f9d56a92a"
+			name="FileTabButton"
+			refimgid="ccf95e6d-238c-46cb-82f5-0477076e40b9"
+			refpath="/form[@title='Belge1 - Microsoft Word']/container[@caption='MsoDockTop']/container/element/element/container/container[@name='Ribbon']/button[@automationid='FileTabButton']"
+			robustPath="/form[@title='Belge1 - Microsoft Word']//button[@automationid='FileTabButton']"
+			searchtimeout="30000ms">
+				/form[@title='Belge1 - Microsoft Word']/container[@caption='MsoDockTop']/container[@caption='Ribbon']//container[@name='Ribbon']/button[@automationid='FileTabButton']
+			</item>
+			<item
+			addcaps="tabpage,uiautomation"
+			capname="tabpage"
+			id="9e157199-bf2d-407c-9993-34bdcaac4cf8"
+			name="Yeni"
+			refimgid="2137d11a-1775-4da3-9aa6-3a30f357be36"
+			refpath="/form[@title='Belge1 - Microsoft Word']/element[@class='FullpageUIHost']/container/container[@automationid='BackstageView']/contextmenu/tabpage[@name='Yeni']"
+			robustPath="/form[@title='Belge1 - Microsoft Word']//tabpage[@name='Yeni']"
+			searchtimeout="30000ms">
+				/form[@title='Belge1 - Microsoft Word']//container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/tabpage[@name='Yeni']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationinvoke"
+			capname="listitem"
+			id="0de46d74-6cdc-4ae5-a46a-34add7e2caec"
+			name="BoşBelge"
+			refimgid="66c150d5-545a-47ef-aa61-ff6bd28ca234"
+			refpath="/form[@title='Belge1 - Microsoft Word']/element[@class='FullpageUIHost']/container/container[@automationid='BackstageView']/container/container[@name='Kullanılabilir Şablonlar']/container[@classname='NetUIScrollViewer']/table[1]/listitem[@name='Boş belge']"
+			robustPath="/form[@title='Belge1 - Microsoft Word']//listitem[@name='Boş belge']"
+			searchtimeout="30000ms">
+				/form[@title='Belge1 - Microsoft Word']//container[@automationid='BackstageView']/container[@name='Yeni']/?/?/container[@classname='NetUIScrollViewer']/table[1]/listitem[@name='Boş belge']
+			</item>
+			<basepath>
+				/form[@title='Belge1 - Microsoft Word']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALuSURBVDhPnZP7T81xGMfPP/A9h9mMLuSSIp31
+Iz+4Z2Ro0hRJC5XcYsvksvEToygLuUURoVZqOuZSaW7rrENXczrdWFqSXHJ0O31fPp/PmfnVPNuz
+s+e7834/7/fzPB/DnwhKKgoxJxVnmncVNQbuLHSatxcQmHiXgPg7BGzNZ9bmm8yMycM/+jp+UbnM
+WH8N34hsFNicVBIWk1HVU17fRV//ELqu8y8xPfwyqrME9/4YZHAEep3Q/gXedkPDR6jrhDfvwSaz
+w52yljFtzUVE9+LM8vqPCtzSK/Kzjr1bp0mAX8s/d+i8bgOrA6odOjWt4nu7jtQ4I0wSCM9Stuys
+HX2LdsxO8pMe+pyj+Kc7MKbUklzYwaGCdowbyzGttTB2ZSmDQy7mxuRiCNxR4JSeO4TshHvdaCcc
+RJZ8on9QxyfNgXawjtALdiqavmKKrsAU/oDjN98xPDJKUMQVQSAmLUN6zq7+iXa8mQW5H3AO6UJR
+E9qBWsbvq2Fg2EXw0VqloKH1Gy4X+K46j2F2wh1F0Cg8ywFJG4GZLVS1CbLD9Rj32ZiYbMXR7cQj
+thJTmEXJl4vyWXYGQ0DcbUUgp10tBqQJz9qBOhaebUZLtqHtrmbMtueEnhTdIx5ijivHOSDai/AO
+Tscwa8stVcjVvGqGeSffoe21oiVZmZJi41JlF+O2PsW04ZGSn1HQTEvnqMJ4LT4tCGLzVCHlv7TD
+/vwujAnPMcY/Y86RGvpFN89YQRBuwbS6FPv7H5S9ch+a96JTGPyjb6hCHsoLQXDp4XeMmyrUyhKz
+GvnU58Jj/WNMq0qZIAgGhP8ci5vAa0EaBr+oHFVIBZKgrGZErUp23JPVQGePC39BaFpexMzIMn7+
+cnHlvpvAc34qBvkoZKgZiGurbIAHNrBYde690Ml7pHOhBAGCqxb5K+pSBXET+K7Ldlf/EYpAvij5
+KKaGZjFFHIbPinNMDslkstjxpKUZeC9JV9P2WngKT+FZgv5mKr8BpjPzrIOTGNkAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wordapplication"
+		capname="form"
+		id="e4f09143-e02a-496e-9aa9-096b7a83dd0c"
+		isrooted="True"
+		name="Belge2MicrosoftWord"
+		refimgid="d67c236b-ff43-4178-aa1c-08046ca2437f"
+		refpath="/form[@title='Belge2 - Microsoft Word']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="4e331e80-9d10-44ee-9e52-8b3e60ec2704"
+			name="Kaydet"
+			refimgid="a4112178-bc5a-46f9-a364-56a7fc457c30"
+			refpath="/form[@title='Belge2 - Microsoft Word']/container[@caption='MsoDockTop']/container/element/element/container/container[@name='Ribbon']/toolbar/button[@name='Kaydet']"
+			robustPath="/form[@title='Belge2 - Microsoft Word']//button[@name='Kaydet']"
+			searchtimeout="30000ms">
+				/form[@title='Belge2 - Microsoft Word']/container[@caption='MsoDockTop']//container[@name='Ribbon']/toolbar[@name='Hızlı Erişim Araç Çubuğu']/button[@name='Kaydet']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="b8c321db-b755-4644-8a5c-85529d712434"
+			name="FileTabButton"
+			refimgid="cb35bfe1-f583-49aa-853f-5a48f001b371"
+			refpath="/form[@title>'mertyazilim - Microsoft W']/container[@caption='MsoDockTop']/container/element/element/container/container[@name='Ribbon']/button[@automationid='FileTabButton']"
+			robustPath="/form[@title='Belge2 - Microsoft Word']//button[@automationid='FileTabButton']"
+			searchtimeout="30000ms">
+				/form[@title='Belge2 - Microsoft Word']/container[@caption='MsoDockTop']/container[@caption='Ribbon']//container[@name='Ribbon']/button[@automationid='FileTabButton']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			capname="menuitem"
+			id="23ce56e2-0834-4255-a231-af787479710c"
+			name="MenuItemAc"
+			refimgid="a7c9e73e-5f74-4379-85d3-7d7702b10255"
+			refpath="/form[@title>'mertyazilim - Microsoft W']/element[@class='FullpageUIHost']/container/container[@automationid='BackstageView']/contextmenu/menuitem[@name='Aç']"
+			robustPath="/form[@title='Belge2 - Microsoft Word']//menuitem[@name='Aç']"
+			searchtimeout="30000ms">
+				/form[@title='Belge2 - Microsoft Word']//container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/menuitem[@name='Aç']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="c550495f-d510-4fc5-8b2d-f62c2c27f9c4"
+			name="ButtonBul"
+			refimgid="174c03ae-5283-4ec7-8591-748d266a852d"
+			refpath="/form[@title>'mertyazilim - Microsoft W']/container[@caption='MsoDockTop']/container/element/element/container/container[@name='Ribbon']/container/element/container[@name='Düzenleme']/button[@name='Bul']/button[@name='Bul']"
+			robustPath="/form[@title='Belge2 - Microsoft Word']//button[@acceleratorkey='Ctrl+F']"
+			searchtimeout="30000ms">
+				/form[@title='Belge2 - Microsoft Word']//container[@name='Ribbon']/container[@name='Alt Şerit']/element[@name='Giriş']/container[@name='Düzenleme']/button[@name='Bul']/button[@name='Bul']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,worddocument"
+			capname="worddocument"
+			id="747e35f5-74ca-4a46-90d9-0ac0d1ada735"
+			name="MertyazilimDocx"
+			refimgid="2224320e-85cb-43c9-af2b-6ddd0d496feb"
+			refpath="/form[@title>'mertyazilim - Microsoft W']/element[@class='_WwF']/element/worddoc[@name='mertyazilim.docx']"
+			robustPath="/form[@title='Belge2 - Microsoft Word']//worddoc[@name='mertyazilim.docx']"
+			searchtimeout="30000ms">
+				/form[@title='Belge2 - Microsoft Word']/element[@class='_WwF']/?/?/worddoc[@name='mertyazilim.docx']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="54440952-d43f-469e-92f0-8e6e6a2349bc"
+			name="Kalın"
+			refimgid="3fd20191-47ea-4056-adbb-12379248f318"
+			refpath="/form[@title>'mertyazilim - Microsoft W']/container[@caption='MsoDockTop']/container/element/element/container/container[@name='Ribbon']/container/element/container[@name='Yazı Tipi']/button[@name='Kalın']"
+			robustPath="/form[@title='Belge2 - Microsoft Word']//button[@name='Kalın']"
+			searchtimeout="30000ms">
+				/form[@title='Belge2 - Microsoft Word']//container[@name='Ribbon']/container[@name='Alt Şerit']/element[@name='Giriş']/container[@name='Yazı Tipi']/button[@name='Kalın']
+			</item>
+			<basepath>
+				/form[@title='Belge2 - Microsoft Word']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALuSURBVDhPnZP7T81xGMfPP/A9h9mMLuSSIp31
+Iz+4Z2Ro0hRJC5XcYsvksvEToygLuUURoVZqOuZSaW7rrENXczrdWFqSXHJ0O31fPp/PmfnVPNuz
+s+e7834/7/fzPB/DnwhKKgoxJxVnmncVNQbuLHSatxcQmHiXgPg7BGzNZ9bmm8yMycM/+jp+UbnM
+WH8N34hsFNicVBIWk1HVU17fRV//ELqu8y8xPfwyqrME9/4YZHAEep3Q/gXedkPDR6jrhDfvwSaz
+w52yljFtzUVE9+LM8vqPCtzSK/Kzjr1bp0mAX8s/d+i8bgOrA6odOjWt4nu7jtQ4I0wSCM9Stuys
+HX2LdsxO8pMe+pyj+Kc7MKbUklzYwaGCdowbyzGttTB2ZSmDQy7mxuRiCNxR4JSeO4TshHvdaCcc
+RJZ8on9QxyfNgXawjtALdiqavmKKrsAU/oDjN98xPDJKUMQVQSAmLUN6zq7+iXa8mQW5H3AO6UJR
+E9qBWsbvq2Fg2EXw0VqloKH1Gy4X+K46j2F2wh1F0Cg8ywFJG4GZLVS1CbLD9Rj32ZiYbMXR7cQj
+thJTmEXJl4vyWXYGQ0DcbUUgp10tBqQJz9qBOhaebUZLtqHtrmbMtueEnhTdIx5ijivHOSDai/AO
+Tscwa8stVcjVvGqGeSffoe21oiVZmZJi41JlF+O2PsW04ZGSn1HQTEvnqMJ4LT4tCGLzVCHlv7TD
+/vwujAnPMcY/Y86RGvpFN89YQRBuwbS6FPv7H5S9ch+a96JTGPyjb6hCHsoLQXDp4XeMmyrUyhKz
+GvnU58Jj/WNMq0qZIAgGhP8ci5vAa0EaBr+oHFVIBZKgrGZErUp23JPVQGePC39BaFpexMzIMn7+
+cnHlvpvAc34qBvkoZKgZiGurbIAHNrBYde690Ml7pHOhBAGCqxb5K+pSBXET+K7Ldlf/EYpAvij5
+KKaGZjFFHIbPinNMDslkstjxpKUZeC9JV9P2WngKT+FZgv5mKr8BpjPzrIOTGNkAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1f990655-5cdf-4f97-b40c-f658e19136ba"
+		isrooted="True"
+		name="FarklıKaydet"
+		refpath="/form[@title='Farklı Kaydet']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="da392d2c-023c-40f8-8931-f7aae0f93b24"
+			name="Masauestue"
+			refimgid="67af1fa4-49f8-4d79-8f36-83fe949a59db"
+			refpath="/form[@title='Farklı Kaydet']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/treeitem[@text='Sık Kullanılanlar']/treeitem[@text='Masaüstü']"
+			robustPath="/form[@title='Farklı Kaydet']//tree[@controlid='100']/treeitem[@text='Sık Kullanılanlar']/treeitem[@text='Masaüstü']"
+			searchtimeout="30000ms">
+				/form[@title='Farklı Kaydet']/element[@class='DUIViewWndClassName']/container/element[2]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Masaüstü']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="86e8c925-35ea-404a-9d0a-627046529b10"
+			name="Text1001"
+			refimgid="080e2d74-d085-4da3-82a5-33fb120ea031"
+			refpath="/form[@title='Farklı Kaydet']/element[@class='DUIViewWndClassName']/container/element[@class='FloatNotifySink' and @instance='0']/combobox/text[@controlid='1001']"
+			robustPath="/form[@title='Farklı Kaydet']//text[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@title='Farklı Kaydet']/?/?/container[@class='DirectUIHWND']/element[9]/combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f3635ceb-3f73-494c-8813-fbacca608f66"
+			name="Kaydet"
+			refimgid="aed3dd55-6a3b-4d49-a6a0-d0c492102388"
+			refpath="/form[@title='Farklı Kaydet']/button[@text='Kay&amp;det']"
+			robustPath="/form[@title='Farklı Kaydet']/button[@text='Kay&amp;det']"
+			searchtimeout="30000ms">
+				/form[@title='Farkl&#305; Kaydet']/button[@text='Kay&amp;det']
+			</item>
+			<basepath>
+				/form[@title='Farklı Kaydet']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALuSURBVDhPnZP7T81xGMfPP/A9h9mMLuSSIp31
+Iz+4Z2Ro0hRJC5XcYsvksvEToygLuUURoVZqOuZSaW7rrENXczrdWFqSXHJ0O31fPp/PmfnVPNuz
+s+e7834/7/fzPB/DnwhKKgoxJxVnmncVNQbuLHSatxcQmHiXgPg7BGzNZ9bmm8yMycM/+jp+UbnM
+WH8N34hsFNicVBIWk1HVU17fRV//ELqu8y8xPfwyqrME9/4YZHAEep3Q/gXedkPDR6jrhDfvwSaz
+w52yljFtzUVE9+LM8vqPCtzSK/Kzjr1bp0mAX8s/d+i8bgOrA6odOjWt4nu7jtQ4I0wSCM9Stuys
+HX2LdsxO8pMe+pyj+Kc7MKbUklzYwaGCdowbyzGttTB2ZSmDQy7mxuRiCNxR4JSeO4TshHvdaCcc
+RJZ8on9QxyfNgXawjtALdiqavmKKrsAU/oDjN98xPDJKUMQVQSAmLUN6zq7+iXa8mQW5H3AO6UJR
+E9qBWsbvq2Fg2EXw0VqloKH1Gy4X+K46j2F2wh1F0Cg8ywFJG4GZLVS1CbLD9Rj32ZiYbMXR7cQj
+thJTmEXJl4vyWXYGQ0DcbUUgp10tBqQJz9qBOhaebUZLtqHtrmbMtueEnhTdIx5ijivHOSDai/AO
+Tscwa8stVcjVvGqGeSffoe21oiVZmZJi41JlF+O2PsW04ZGSn1HQTEvnqMJ4LT4tCGLzVCHlv7TD
+/vwujAnPMcY/Y86RGvpFN89YQRBuwbS6FPv7H5S9ch+a96JTGPyjb6hCHsoLQXDp4XeMmyrUyhKz
+GvnU58Jj/WNMq0qZIAgGhP8ci5vAa0EaBr+oHFVIBZKgrGZErUp23JPVQGePC39BaFpexMzIMn7+
+cnHlvpvAc34qBvkoZKgZiGurbIAHNrBYde690Ml7pHOhBAGCqxb5K+pSBXET+K7Ldlf/EYpAvij5
+KKaGZjFFHIbPinNMDslkstjxpKUZeC9JV9P2WngKT+FZgv5mKr8BpjPzrIOTGNkAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="9264929a-381f-40c3-9dd9-2c37a44e8e84"
+		isrooted="True"
+		name="FormAc"
+		refpath="/form[@title='Aç']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="026a1b07-592b-4302-b5d2-1b24800feac0"
+			name="Masauestue"
+			refimgid="9bdf448f-76ff-4a79-b7a4-2a6ff497f996"
+			refpath="/form[@title='Aç']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/treeitem[@text='Sık Kullanılanlar']/treeitem[@text='Masaüstü']"
+			robustPath="/form[@title='Aç']//tree[@controlid='100']/treeitem[@text='Sık Kullanılanlar']/treeitem[@text='Masaüstü']"
+			searchtimeout="30000ms">
+				/form[@title='Aç']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Masaüstü']
+			</item>
+			<item
+			addcaps="indicator"
+			capname="indicator"
+			id="490e516f-b264-4a3e-9428-2009dcfde8e3"
+			name="SomeIndicator"
+			refimgid="ea7d96a9-c5b7-4aad-8645-14f6bc506612"
+			refpath="/form[@title='Aç']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/element[@class='CtrlNotifySink' and @instance='0']/scrollbar[@style='Custom']/indicator"
+			robustPath="/form[@title='Aç']//container[@caption='ShellView']/container[@class='DirectUIHWND']/element[@instance='0']/scrollbar[@style='Custom']/indicator"
+			searchtimeout="30000ms">
+				/form[@title='Aç']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/element[@instance='0']/scrollbar[@style='Custom']/indicator
+			</item>
+			<item
+			addcaps="picture,uiautomation,uiautomationvalue"
+			capname="picture"
+			id="6649aa90-312f-4f53-8840-1dc63dfaccad"
+			name="UIImage"
+			refimgid="87af8f01-99ff-4e85-a313-554809412741"
+			refpath="/form[@title='Aç']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='7']/picture[@classname='UIImage']"
+			robustPath="/form[@title='Aç']//listitem[@automationid='7']/picture[@classname='UIImage']"
+			searchtimeout="30000ms">
+				/form[@title='Aç']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='7']/picture[@classname='UIImage']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ce2124db-774b-4190-8b09-f5dfacf0eb2c"
+			name="ButtonAc"
+			refimgid="c3e876af-ebd8-4c13-aafb-ad0fcfc1b5aa"
+			refpath="/form[@title='Aç']/button[@text='&amp;Aç']"
+			robustPath="/form[@title='Aç']/button[@text='&amp;Aç']"
+			searchtimeout="30000ms">
+				/form[@title='A&#231;']/button[@text='&amp;A&#231;']
+			</item>
+			<basepath>
+				/form[@title='Aç']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALuSURBVDhPnZP7T81xGMfPP/A9h9mMLuSSIp31
+Iz+4Z2Ro0hRJC5XcYsvksvEToygLuUURoVZqOuZSaW7rrENXczrdWFqSXHJ0O31fPp/PmfnVPNuz
+s+e7834/7/fzPB/DnwhKKgoxJxVnmncVNQbuLHSatxcQmHiXgPg7BGzNZ9bmm8yMycM/+jp+UbnM
+WH8N34hsFNicVBIWk1HVU17fRV//ELqu8y8xPfwyqrME9/4YZHAEep3Q/gXedkPDR6jrhDfvwSaz
+w52yljFtzUVE9+LM8vqPCtzSK/Kzjr1bp0mAX8s/d+i8bgOrA6odOjWt4nu7jtQ4I0wSCM9Stuys
+HX2LdsxO8pMe+pyj+Kc7MKbUklzYwaGCdowbyzGttTB2ZSmDQy7mxuRiCNxR4JSeO4TshHvdaCcc
+RJZ8on9QxyfNgXawjtALdiqavmKKrsAU/oDjN98xPDJKUMQVQSAmLUN6zq7+iXa8mQW5H3AO6UJR
+E9qBWsbvq2Fg2EXw0VqloKH1Gy4X+K46j2F2wh1F0Cg8ywFJG4GZLVS1CbLD9Rj32ZiYbMXR7cQj
+thJTmEXJl4vyWXYGQ0DcbUUgp10tBqQJz9qBOhaebUZLtqHtrmbMtueEnhTdIx5ijivHOSDai/AO
+Tscwa8stVcjVvGqGeSffoe21oiVZmZJi41JlF+O2PsW04ZGSn1HQTEvnqMJ4LT4tCGLzVCHlv7TD
+/vwujAnPMcY/Y86RGvpFN89YQRBuwbS6FPv7H5S9ch+a96JTGPyjb6hCHsoLQXDp4XeMmyrUyhKz
+GvnU58Jj/WNMq0qZIAgGhP8ci5vAa0EaBr+oHFVIBZKgrGZErUp23JPVQGePC39BaFpexMzIMn7+
+cnHlvpvAc34qBvkoZKgZiGurbIAHNrBYde690Ml7pHOhBAGCqxb5K+pSBXET+K7Ldlf/EYpAvij5
+KKaGZjFFHIbPinNMDslkstjxpKUZeC9JV9P2WngKT+FZgv5mKr8BpjPzrIOTGNkAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7782805e-eff8-4427-9ae3-e2009eb1c150"
+		isrooted="True"
+		name="MertyazilimMicrosoftWord"
+		refpath="/form[@title='mertyazilim - Microsoft Word']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="52202dd4-8dd5-4e3a-92d8-0a24f9b14dae"
+			name="BelgeAra"
+			refimgid="7dec0bf0-40a4-4ef9-adab-6aba8fbb9162"
+			refpath="/form[@title>'mertyazilim - Microsoft W']/container[@caption='MsoDockLeft']/container/element/element/container/element[@class='NetUICtrlNotifySink']/element/text[@accessiblename='Belge Ara']"
+			robustPath="/form[@title>'mertyazilim - Microsoft W']//text[@accessiblename='Belge Ara']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'mertyazilim - Microsoft W']/container[@caption='MsoDockLeft']/container[@caption='Gezinti']//element[@class='NetUICtrlNotifySink']/?/?/text[@accessiblename='Belge Ara']
+			</item>
+			<basepath>
+				/form[@title&gt;'mertyazilim - Microsoft W']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALuSURBVDhPnZP7T81xGMfPP/A9h9mMLuSSIp31
+Iz+4Z2Ro0hRJC5XcYsvksvEToygLuUURoVZqOuZSaW7rrENXczrdWFqSXHJ0O31fPp/PmfnVPNuz
+s+e7834/7/fzPB/DnwhKKgoxJxVnmncVNQbuLHSatxcQmHiXgPg7BGzNZ9bmm8yMycM/+jp+UbnM
+WH8N34hsFNicVBIWk1HVU17fRV//ELqu8y8xPfwyqrME9/4YZHAEep3Q/gXedkPDR6jrhDfvwSaz
+w52yljFtzUVE9+LM8vqPCtzSK/Kzjr1bp0mAX8s/d+i8bgOrA6odOjWt4nu7jtQ4I0wSCM9Stuys
+HX2LdsxO8pMe+pyj+Kc7MKbUklzYwaGCdowbyzGttTB2ZSmDQy7mxuRiCNxR4JSeO4TshHvdaCcc
+RJZ8on9QxyfNgXawjtALdiqavmKKrsAU/oDjN98xPDJKUMQVQSAmLUN6zq7+iXa8mQW5H3AO6UJR
+E9qBWsbvq2Fg2EXw0VqloKH1Gy4X+K46j2F2wh1F0Cg8ywFJG4GZLVS1CbLD9Rj32ZiYbMXR7cQj
+thJTmEXJl4vyWXYGQ0DcbUUgp10tBqQJz9qBOhaebUZLtqHtrmbMtueEnhTdIx5ijivHOSDai/AO
+Tscwa8stVcjVvGqGeSffoe21oiVZmZJi41JlF+O2PsW04ZGSn1HQTEvnqMJ4LT4tCGLzVCHlv7TD
+/vwujAnPMcY/Y86RGvpFN89YQRBuwbS6FPv7H5S9ch+a96JTGPyjb6hCHsoLQXDp4XeMmyrUyhKz
+GvnU58Jj/WNMq0qZIAgGhP8ci5vAa0EaBr+oHFVIBZKgrGZErUp23JPVQGePC39BaFpexMzIMn7+
+cnHlvpvAc34qBvkoZKgZiGurbIAHNrBYde690Ml7pHOhBAGCqxb5K+pSBXET+K7Ldlf/EYpAvij5
+KKaGZjFFHIbPinNMDslkstjxpKUZeC9JV9P2WngKT+FZgv5mKr8BpjPzrIOTGNkAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="host,nativewindow"
+		capname="host"
+		id="7344f02c-483d-4a83-bba2-a311edfd4375"
+		isrooted="True"
+		name="HPBILGISAYAR"
+		refimgid="f1849cee-5bc8-449a-b176-a8dffc9cff1d"
+		refpath=""
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="host,nativewindow"
+			capname="host"
+			id="b143ef56-e1e5-49a1-9c2d-4707111f8e0e"
+			name="HPBILGISAYAR"
+			refimgid="062a3488-b988-4d74-9395-a7c1d87bba76"
+			refpath=""
+			robustPath=""
+			searchtimeout="30000ms">
+			</item>
+			<basepath>
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACtUlEQVQ4T62S6zOUYRiH9w/qYzM1o5moMUyNShmHpISUNhIrHRxW
+DjmXpcah2Ky1TcsSa5ZQ0u62csxxMI4p6URGWFlXz6rGNPu1e+b98sx7Xc/v996v5L/N4OgcPYPT
+WPomaH8zSotpGENbP3UtvVQbutDUWVDVmCjVtlOsaeMPtjNd/VNcfwwyNVwuh4ulEFoMQfchQGHj
+5B0rPlkreN1eRKFsdBQYO8eIroAHz6GgCbLqQa6DqxoIV0JIoV20iU/mCndKDY6CFuMQ4WWgEHCG
+gBOrIKYSpOIsWMCn8n7inbHM0VvzZBfXOwr0rX2cL4H0OkjQQrSoIhU1zooK/nc38MpY4oj8Pe6x
+o6QXPnUUVBk6t1+OewJRKgh78Bu2d7f39kh8h/vVEVwiOki9p3MUqGvN2x2viA94QcCBBeCXu86J
+tG94xM/iFjOES7iFfeeaSVJoHQVlYj2+OWuEihpn8rfwzV7leOoXDsdN4yobwFlqxinkGXtP15KQ
++9hRUFT5HK/07wTk2/DJ/oFn8mcO3ZzENfqtgI04BTeyJ0DHbj8NN7IqHAUKZRNzn6xMza8zPrfG
+yMwqA5M/6B1bobXzI7UvJijWWgjtCkWWpvxXkJLz8KBG/3pTqXtJYWWz2HM9afe0xOeokKWUII0v
+IEiWjd+lFI4Fx+HmL9u8lFAU+QeXSDQNFv7Opm2LNauNpZWfzH+1MikS2dN0iySmwWVae5aoaZvl
+gHfkTgp1nXkbjjXFsm7d4oNhFwuLG8wsWGl8NUjFU6NIped6porYDBUlugH2n4jYEZTXGrGJm6sG
+9AxPLDA7VE579zRNpnFqWkdQN/RTUt2NQt1BziMzmWVG9nlKdwRFmma5eMhT6sVfVo38biXX0suI
+TCok7EYegVGZ+EqTt/u7+8fg7BVhF8glEonkF6m1M1/+IilrAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

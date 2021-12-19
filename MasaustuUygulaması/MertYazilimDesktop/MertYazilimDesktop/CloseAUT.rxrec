@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4f98fedf-0d84-4679-8fbd-7983096dfe1f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="MertYazilimDesktop">
+	</codegen>
+	<variables>
+		<var
+		id="296f1f95-d5fa-49d4-9975-9c82ffe2b326"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="ceb87535-5fc7-43cd-bb69-cf328791fc16">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="50684882-5794-4aa3-8580-7a37b05c99e5"
+	name="MertYazilimDesktopRepository"
+	relativepath="MertYazilimDesktopRepository.rxrep">
+		<codegen
+		classname="MertYazilimDesktopRepository"
+		namespace="MertYazilimDesktop">
+		</codegen>
+		<rootfolder
+		id="c4440b68-3cc0-4846-89dc-2968f202a285"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

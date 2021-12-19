@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="09e98a66-214e-4e8d-ba25-140fa6eeb0f8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MertYazilimDesktop">
+	</codegen>
+	<variables>
+		<var
+		id="2d8ddea9-1ce4-4391-9e0c-1b322f27a1cd"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="50684882-5794-4aa3-8580-7a37b05c99e5"
+	name="MertYazilimDesktopRepository"
+	relativepath="MertYazilimDesktopRepository.rxrep">
+		<codegen
+		classname="MertYazilimDesktopRepository"
+		namespace="MertYazilimDesktop">
+		</codegen>
+		<rootfolder
+		id="c4440b68-3cc0-4846-89dc-2968f202a285"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

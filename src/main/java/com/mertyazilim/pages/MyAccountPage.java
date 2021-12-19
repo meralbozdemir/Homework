@@ -1,6 +1,8 @@
 package com.mertyazilim.pages;
 
 import java.io.IOException;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -44,6 +46,14 @@ public class MyAccountPage extends PageBase {
 		return isLogin.getText().contains(username);
 	}
 
+	public MyAccountPage myAccountButton(int jobNo, String date,String username, String password, ExtentTest extentTest) throws IOException
+	{
+		System.out.println(driver.findElement(By.linkText("MY ACCOUNT")).isDisplayed());
+		
+		
+		return new MyAccountPage(driver);
+	}
+	
 
 	
 	}

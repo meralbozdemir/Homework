@@ -1,0 +1,10 @@
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\bin\Debug\MertYazilimDesktop.rxtmg
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\bin\Debug\MertYazilimDesktop.rxtst
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\bin\Debug\MertYazilimDesktop.exe.config
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\bin\Debug\MertYazilimDesktop.xml
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\bin\Debug\MertYazilimDesktop.exe
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\bin\Debug\MertYazilimDesktop.pdb
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\obj\x86\Debug\MertYazilimDesktop.csprojResolveAssemblyReference.cache
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\obj\x86\Debug\MertYazilimDesktop.exe
+C:\Users\Hp\Documents\Ranorex\RanorexStudio Projects\MertYazilimDesktop\MertYazilimDesktop\obj\x86\Debug\MertYazilimDesktop.pdb

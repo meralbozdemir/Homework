@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MertYazilimDesktop"
+      id="ce062885-8076-4f7e-ad38-4852fb532617"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MertYazilimDesktop"
+      id="ce062885-8076-4f7e-ad38-4852fb532617"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

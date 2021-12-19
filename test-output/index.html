@@ -5,7 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -23,22 +24,23 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\rsivr\AppData\Local\Temp\testng-eclipse-212306328\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1703442522\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content skipped suite-Default_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mertyazilim.tests.CheckoutWithSignUP" hash-for-method="testCheckout">testCheckout</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.mertyazilim.tests.AnaMenuTest" class="method navigator-link" hash-for-method="testSuccessfulLogin(testuser3, SeleniumTestAccount1)">testSuccessfulLogin(testuser3, SeleniumTestAccount1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.mertyazilim.tests.AnaMenuTest" class="method navigator-link" hash-for-method="testSuccessfulLogin(testuser1, SeleniumTestAccount1)">testSuccessfulLogin(testuser1, SeleniumTestAccount1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.mertyazilim.tests.AnaMenuTest" class="method navigator-link" hash-for-method="testSuccessfulLogin(testuser2, SeleniumTestAccount1)">testSuccessfulLogin(testuser2, SeleniumTestAccount1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,34 +129,195 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.mertyazilim.tests.CheckoutWithSignUP</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.mertyazilim.tests.AnaMenuTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCheckout">
-                  </a> <!-- testCheckout -->
-                  <span class="method-name">testCheckout</span>
+                  <a name="testSuccessfulLogin(testuser3, SeleniumTestAccount1)">
+                  </a> <!-- testSuccessfulLogin(testuser3, SeleniumTestAccount1) -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <span class="parameters">(testuser3, SeleniumTestAccount1)</span>
+                  <div class="stack-trace">io.github.bonigarcia.wdm.WebDriverManagerException: java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:689)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:521)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:686)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:521)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:251)
+	at com.mertyazilim.util.Browser.createDriver(Browser.java:84)
+	at com.mertyazilim.tests.TestBase.beforeMethod(TestBase.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.storeVersionToDownload(WebDriverManager.java:1254)
+	at io.github.bonigarcia.wdm.WebDriverManager.checkLatest(WebDriverManager.java:882)
+	at io.github.bonigarcia.wdm.WebDriverManager.filterCandidateUrls(WebDriverManager.java:712)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:506)
+	... 37 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin(testuser1, SeleniumTestAccount1)">
+                  </a> <!-- testSuccessfulLogin(testuser1, SeleniumTestAccount1) -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <span class="parameters">(testuser1, SeleniumTestAccount1)</span>
+                  <div class="stack-trace">io.github.bonigarcia.wdm.WebDriverManagerException: java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:689)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:521)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:686)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:521)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:251)
+	at com.mertyazilim.util.Browser.createDriver(Browser.java:84)
+	at com.mertyazilim.tests.TestBase.beforeMethod(TestBase.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.storeVersionToDownload(WebDriverManager.java:1254)
+	at io.github.bonigarcia.wdm.WebDriverManager.checkLatest(WebDriverManager.java:882)
+	at io.github.bonigarcia.wdm.WebDriverManager.filterCandidateUrls(WebDriverManager.java:712)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:506)
+	... 37 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin(testuser2, SeleniumTestAccount1)">
+                  </a> <!-- testSuccessfulLogin(testuser2, SeleniumTestAccount1) -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <span class="parameters">(testuser2, SeleniumTestAccount1)</span>
+                  <div class="stack-trace">io.github.bonigarcia.wdm.WebDriverManagerException: java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:689)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:521)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:686)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:521)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:251)
+	at com.mertyazilim.util.Browser.createDriver(Browser.java:84)
+	at com.mertyazilim.tests.TestBase.beforeMethod(TestBase.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at io.github.bonigarcia.wdm.WebDriverManager.storeVersionToDownload(WebDriverManager.java:1254)
+	at io.github.bonigarcia.wdm.WebDriverManager.checkLatest(WebDriverManager.java:882)
+	at io.github.bonigarcia.wdm.WebDriverManager.filterCandidateUrls(WebDriverManager.java:712)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:506)
+	... 37 more
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-skipped -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\rsivr\AppData\Local\Temp\testng-eclipse-212306328\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Hp\AppData\Local\Temp\testng-eclipse-1703442522\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.mertyazilim.tests.CheckoutWithSignUP&quot;/&gt;
+      &lt;class name=&quot;com.mertyazilim.tests.AnaMenuTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +357,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCheckout')
-data.setCell(0, 2, 'com.mertyazilim.tests.CheckoutWithSignUP')
-data.setCell(0, 3, 178299);
+data.setCell(0, 1, 'testSuccessfulLogin')
+data.setCell(0, 2, 'com.mertyazilim.tests.AnaMenuTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSuccessfulLogin')
+data.setCell(1, 2, 'com.mertyazilim.tests.AnaMenuTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSuccessfulLogin')
+data.setCell(2, 2, 'com.mertyazilim.tests.AnaMenuTest')
+data.setCell(2, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,38 +400,65 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.mertyazilim.tests.CheckoutWithSignUP</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.mertyazilim.tests.AnaMenuTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuit</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">setExtent(org.testng.TestRunner@76adb233)</span>
-                <span class="method-start">2030 ms</span>
+                <span class="method-name">setExtent(org.testng.TestRunner@2ad1518a)</span>
+                <span class="method-start">328 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.mertyazilim.tests.CheckoutWithSignUP.testCheckout() throws java.io.IOException,java....)</span>
-                <span class="method-start">2628 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod(public void com.mertyazilim.tests.AnaMenuTest.testSuccessfulLogin(java.lang.String,java.lang.String)...)</span>
+                <span class="method-start">2404 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCheckout</span>
-                <span class="method-start">22357 ms</span>
+                <span class="method-name">testSuccessfulLogin(testuser1, SeleniumTestAccount1)</span>
+                <span class="method-start">118783 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testCheckout status=SUCCESS method=CheckoutWithSignUP.testCheckout()[pri:0, instanc...)</span>
-                <span class="method-start">200663 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">118809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogin(testuser2, SeleniumTestAccount1)</span>
+                <span class="method-start">118814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">118841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogin(testuser3, SeleniumTestAccount1)</span>
+                <span class="method-start">118844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118854 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">207217 ms</span>
+                <span class="method-start">118910 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">endSuit</span>
-                <span class="method-start">208356 ms</span>
+                <span class="method-start">120075 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

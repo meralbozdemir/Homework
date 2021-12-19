@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MertYazilimDesktop</name>
+    </assembly>
+    <members>
+        <member name="T:MertYazilimDesktop.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:MertYazilimDesktop.CloseAUT.repo">
+            <summary>
+            Holds an instance of the MertYazilimDesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MertYazilimDesktop.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MertYazilimDesktop.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepository">
+            <summary>
+            The class representing the MertYazilimDesktopRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.MertYazilimDesktopRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MertYazilimDesktopRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.Belge1MicrosoftWord">
+            <summary>
+            The Belge1MicrosoftWord folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.Belge2MicrosoftWord">
+            <summary>
+            The Belge2MicrosoftWord folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.FarklıKaydet">
+            <summary>
+            The FarklıKaydet folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.FormAc">
+            <summary>
+            The FormAc folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.MertyazilimMicrosoftWord">
+            <summary>
+            The MertyazilimMicrosoftWord folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepository.HPBILGISAYAR">
+            <summary>
+            The HPBILGISAYAR folder.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder">
+            <summary>
+            The Belge1MicrosoftWordAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Belge1MicrosoftWord  folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.FileTabButton">
+            <summary>
+            The FileTabButton item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.FileTabButtonInfo">
+            <summary>
+            The FileTabButton item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.Yeni">
+            <summary>
+            The Yeni item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.YeniInfo">
+            <summary>
+            The Yeni item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.BoşBelge">
+            <summary>
+            The BoşBelge item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge1MicrosoftWordAppFolder.BoşBelgeInfo">
+            <summary>
+            The BoşBelge item info.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder">
+            <summary>
+            The Belge2MicrosoftWordAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Belge2MicrosoftWord  folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.Kaydet">
+            <summary>
+            The Kaydet item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.KaydetInfo">
+            <summary>
+            The Kaydet item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.FileTabButton">
+            <summary>
+            The FileTabButton item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.FileTabButtonInfo">
+            <summary>
+            The FileTabButton item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.MenuItemAc">
+            <summary>
+            The MenuItemAc item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.MenuItemAcInfo">
+            <summary>
+            The MenuItemAc item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.ButtonBul">
+            <summary>
+            The ButtonBul item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.ButtonBulInfo">
+            <summary>
+            The ButtonBul item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.MertyazilimDocx">
+            <summary>
+            The MertyazilimDocx item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.MertyazilimDocxInfo">
+            <summary>
+            The MertyazilimDocx item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.Kalın">
+            <summary>
+            The Kalın item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.Belge2MicrosoftWordAppFolder.KalınInfo">
+            <summary>
+            The Kalın item info.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder">
+            <summary>
+            The FarklıKaydetAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FarklıKaydet  folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.Masauestue">
+            <summary>
+            The Masauestue item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.MasauestueInfo">
+            <summary>
+            The Masauestue item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.Text1001">
+            <summary>
+            The Text1001 item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.Text1001Info">
+            <summary>
+            The Text1001 item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.Kaydet">
+            <summary>
+            The Kaydet item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FarklıKaydetAppFolder.KaydetInfo">
+            <summary>
+            The Kaydet item info.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder">
+            <summary>
+            The FormAcAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormAc  folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.Masauestue">
+            <summary>
+            The Masauestue item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.MasauestueInfo">
+            <summary>
+            The Masauestue item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.SomeIndicator">
+            <summary>
+            The SomeIndicator item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.SomeIndicatorInfo">
+            <summary>
+            The SomeIndicator item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.UIImage">
+            <summary>
+            The UIImage item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.UIImageInfo">
+            <summary>
+            The UIImage item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.ButtonAc">
+            <summary>
+            The ButtonAc item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.FormAcAppFolder.ButtonAcInfo">
+            <summary>
+            The ButtonAc item info.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.MertyazilimMicrosoftWordAppFolder">
+            <summary>
+            The MertyazilimMicrosoftWordAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.MertyazilimMicrosoftWordAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MertyazilimMicrosoftWord  folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.MertyazilimMicrosoftWordAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.MertyazilimMicrosoftWordAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.MertyazilimMicrosoftWordAppFolder.BelgeAra">
+            <summary>
+            The BelgeAra item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.MertyazilimMicrosoftWordAppFolder.BelgeAraInfo">
+            <summary>
+            The BelgeAra item info.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.HPBILGISAYARAppFolder">
+            <summary>
+            The HPBILGISAYARAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.HPBILGISAYARAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HPBILGISAYAR  folder.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.HPBILGISAYARAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.HPBILGISAYARAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.HPBILGISAYARAppFolder.HPBILGISAYAR">
+            <summary>
+            The HPBILGISAYAR item.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.MertYazilimDesktopRepositoryFolders.HPBILGISAYARAppFolder.HPBILGISAYARInfo">
+            <summary>
+            The HPBILGISAYAR item info.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MertYazilimDesktop.Recording1.repo">
+            <summary>
+            Holds an instance of the MertYazilimDesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MertYazilimDesktop.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MertYazilimDesktop.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MertYazilimDesktop.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:MertYazilimDesktop.StartAUT.repo">
+            <summary>
+            Holds an instance of the MertYazilimDesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MertYazilimDesktop.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MertYazilimDesktop.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MertYazilimDesktop.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MertYazilimDesktop.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
